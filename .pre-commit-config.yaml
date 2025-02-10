@@ -1,14 +1,35 @@
 repos:
-- repo: https://github.com/gitleaks/gitleaks
-  rev: v8.16.3
-  hooks:
-  - id: gitleaks
-- repo: https://github.com/pre-commit/mirrors-eslint
-  rev: v8.38.0
-  hooks:
-  - id: eslint
-- repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.4.0
-  hooks:
-  - id: end-of-file-fixer
-  - id: trailing-whitespace
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.16.3
+    hooks:
+      - id: gitleaks
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v8.38.0
+    hooks:
+      - id: eslint
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-xml
+      - id: check-toml
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-illegal-windows-names
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: detect-private-key
+      - id: cmixed-line-ending
+      - id: pretty-format-json
+      - id: check-docstring-first
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: ""
+    hooks:
+      - id: yamllint
+        files: \.(yaml)$
+        types: [file, yaml]
+        entry: yamllint --no-warnings
+        language_version: python3.10
