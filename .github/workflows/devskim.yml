@@ -1,0 +1,58 @@
+# This GitHub Actions workflow is named "DevSkim" and is triggered on pushes and pull requests to the "main" branch,
+# as well as on a scheduled cron job that runs every Tuesday at 2:32 AM.
+#
+# The workflow has read permissions for the contents and includes a single job named "lint" that runs on an Ubuntu 20.04 runner.
+# The job has read permissions for actions and contents, and write permissions for security events.
+#
+# The job consists of the following steps:
+# 1. Harden Runner: Uses the step-security/harden-runner action to harden the runner with specific configurations.
+# 2. Checkout code: Uses the actions/checkout action to check out the repository's code.
+# 3. Run DevSkim scanner: Uses the microsoft/DevSkim-Action to run the DevSkim security scanner.
+# 4. Upload DevSkim scan results to GitHub Security tab: Uses the github/codeql-action/upload-sarif action to upload the DevSkim scan results in SARIF format to the GitHub Security tab.
+#
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: DevSkim
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  schedule:
+    - cron: "32 2 * * 2"
+
+permissions:
+  contents: write
+
+jobs:
+  lint:
+    name: DevSkim
+    runs-on: ubuntu-20.04
+    permissions:
+      actions: write
+      contents: write
+      security-events: write
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@cb605e52c26070c328afc4562f0b4ada7618a84e # v2.10.4
+        with:
+          disable-sudo: true
+          egress-policy: audit
+          allowed-endpoints: >
+            api.github.com:443
+            github.com:443
+
+      - name: Checkout code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Run DevSkim scanner
+        uses: microsoft/DevSkim-Action@a6b6966a33b497cd3ae2ebc406edf8f4cc2feec6 # v1.0.15
+
+      - name: Upload DevSkim scan results to GitHub Security tab
+        uses: github/codeql-action/upload-sarif@9e8d0789d4a0fa9ceb6b1738f7e269594bdd67f0 # v3.28.9
+        with:
+          sarif_file: devskim-results.sarif
