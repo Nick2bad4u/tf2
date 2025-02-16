@@ -36,7 +36,7 @@ third_folder = []
 file_extension_top_folder_ext = ".cfg"
 file_extension_top_folder_name = "<h2>.cfg</h2>"
 file_extension_second_folder_ext = ".vmt"
-file_extension_second_folder_name = "<h2>.vmg</h2>"
+file_extension_second_folder_name = "<h2>.vmt</h2>"
 file_extension_third_folder_ext = ".vtf"
 file_extension_third_folder_name = "<h2>.vtf</h2>"
 

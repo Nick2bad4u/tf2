@@ -100,7 +100,7 @@
 <li><a href="https://github.com/Nick2bad4u/Userstyles/blob/main/cfg/sixense_bindings.cfg" style="color: #84d9e8;">cfg\sixense_bindings.cfg</a></li>
 <li><a href="https://github.com/Nick2bad4u/Userstyles/blob/main/cfg/sourcevr_tf.cfg" style="color: #97e4dc;">cfg\sourcevr_tf.cfg</a></li>
 <li><a href="https://github.com/Nick2bad4u/Userstyles/blob/main/cfg/undo360controller.cfg" style="color: #601740;">cfg\undo360controller.cfg</a></li>
-<h2>.vmg</h2>
+<h2>.vmt</h2>
 <li><a href="https://github.com/Nick2bad4u/Userstyles/blob/main/custom/crosshairs/materials/vgui/replay/thumbnails/bigcross.vmt" style="color: #73d8b3;">custom\crosshairs\materials\vgui\replay\thumbnails\bigcross.vmt</a></li>
 <li><a href="https://github.com/Nick2bad4u/Userstyles/blob/main/custom/crosshairs/materials/vgui/replay/thumbnails/brackets.vmt" style="color: #6418c6;">custom\crosshairs\materials\vgui\replay\thumbnails\brackets.vmt</a></li>
 <li><a href="https://github.com/Nick2bad4u/Userstyles/blob/main/custom/crosshairs/materials/vgui/replay/thumbnails/circle.vmt" style="color: #f15d2a;">custom\crosshairs\materials\vgui\replay\thumbnails\circle.vmt</a></li>
