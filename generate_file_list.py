@@ -7,7 +7,7 @@ from collections import defaultdict
 
 # --- Configuration ---
 # Default GitHub repository URL
-GIT_REPO_URL = "https://github.com/Nick2bad4u/Userstyles"
+GIT_REPO_URL = "https://github.com/Nick2bad4u/TF2"
 # Output file name
 OUTPUT_FILE = "file_list.html"
 # Color source: 'random' or 'list'
