@@ -158,7 +158,6 @@ def generate_file_list_with_links(
             else:
                 color = "#000000"  # Default to black
 
-
             if file.endswith(file_extension_top_folder_ext):
                 top_folder.append(
                     f'<a href="{file_url}" style="color: {color};">{file}</a>'
@@ -235,7 +234,9 @@ def save_file_list(file_list_html, output_file):
     try:
         with open(output_file, "w") as f:
             f.write("## File List\n\n")
-            f.write("<p> # Here is a list of files included in this repository:</p>\n\n")
+            f.write(
+                "<p> # Here is a list of files included in this repository:</p>\n\n"
+            )
             f.write("<ul>")
             f.write(file_list_html)
             f.write("</ul>")
