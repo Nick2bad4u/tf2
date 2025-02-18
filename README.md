@@ -15,6 +15,7 @@
 	offering at-a-glance insight into the project's health checks and automation processes.
 -->
 
+<!-- FILE_LIST_START -->
 [![ActionLint](https://github.com/Nick2bad4u/tf2/actions/workflows/ActionLint.yml/badge.svg)](https://github.com/Nick2bad4u/tf2/actions/workflows/ActionLint.yml)
 [![Bandit](https://github.com/Nick2bad4u/tf2/actions/workflows/Bandit.yml/badge.svg)](https://github.com/Nick2bad4u/tf2/actions/workflows/Bandit.yml)
 [![black-formatter](https://github.com/Nick2bad4u/tf2/actions/workflows/black-formatter.yml/badge.svg)](https://github.com/Nick2bad4u/tf2/actions/workflows/black-formatter.yml)
@@ -1537,6 +1538,7 @@
 <li><a href="https://github.com/Nick2bad4u/TF2/blob/main/.github/workflows/static.yml" style="color: #abbc38;">.github\workflows\static.yml</a></li>
 <h2>.vscode</h2>
 <li><a href="https://github.com/Nick2bad4u/TF2/blob/main/.vscode/settings.json" style="color: #c0bc70;">.vscode\settings.json</a></li></ul>
+<!-- FILE_LIST_END -->
 
 <div align="center">
     <img

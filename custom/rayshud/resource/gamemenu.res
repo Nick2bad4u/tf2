@@ -3,8 +3,8 @@
 	"HomeServerButton"
 	{
 		"label"			"p"
-		"command"		"engine clear; showconsole; echo To setup a shortcut to your favorite server, open rayshud/resource/gamemenu.res and under 'HomeServerButton' replace the value of 'command' with the connection string to your server. Example: engine connect 192.168.1.10:27015; password hello"
-		"tooltip"		"Home Server"
+		"command"		"engine connect 91.216.250.12:27015"
+		"tooltip"		"Skial Dustbowl USA Server"
 	}
 	"AchievementsButton"
 	{
