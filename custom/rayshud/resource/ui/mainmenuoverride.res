@@ -173,7 +173,7 @@
 			"wide"		"o1.6"
 			"tall"		"f0"
 		}
-		
+
 		"if_halloween_0"
 		{
 			"image"		"../console/title_team_halloween2011_widescreen"
@@ -191,11 +191,11 @@
 			"image"		"../console/title_team_halloween2014_widescreen"
 		}
 		"if_halloween_4"
-		{	
+		{
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
 		"if_halloween_5"
-		{	
+		{
 			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
 		"if_fullmoon"
@@ -225,7 +225,7 @@
 		"image"			"../vgui/replay/thumbnails/main_menu_logo"
 		"scaleImage"	"1"
 	}
-	
+
 	"TFCharacterImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -239,7 +239,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"
 	}
-	
+
 	"HudName"
 	{
 		"ControlName"	"CExImageButton"
@@ -548,7 +548,7 @@
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
-	
+
 	"ShowToolsButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -589,7 +589,7 @@
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
-	
+
 	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -630,7 +630,7 @@
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
-	
+
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -672,7 +672,7 @@
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
-	
+
 	"HomeServerButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -713,7 +713,213 @@
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
-	
+
+	"HomeServerButton2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HomeServerButton2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"			"HomeServerButton"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"font"				"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"		"ColorCyan"
+		}
+	}
+
+	"HomeServerButton3"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HomeServerButton3"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"			"HomeServerButton2"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"font"				"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"		"ColorCyan"
+		}
+	}
+
+	"HomeServerButton4"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HomeServerButton4"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"			"HomeServerButton3"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"font"				"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"		"ColorCyan"
+		}
+	}
+
+	"HomeServerButton5"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HomeServerButton5"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"			"HomeServerButton4"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"font"				"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"		"ColorCyan"
+		}
+	}
+
+	"HomeServerButton6"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HomeServerButton6"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"			"HomeServerButton5"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"font"				"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"		"ColorCyan"
+		}
+	}
+
+
 	"MOTD_Panel"
 	{
 		"ControlName"	"EditablePanel"
@@ -1051,7 +1257,7 @@
 			}
 		}
 	}
-	
+
 	"Notifications_Panel"
 	{
 		"ControlName"	"EditablePanel"
@@ -1141,7 +1347,7 @@
 			}
 		}
 	}
-	
+
 	"CompetitiveAccessInfoPanel"
 	{
 		"ControlName"	"CCompetitiveAccessInfoPanel"
@@ -1354,7 +1560,7 @@
 
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override" 	"25 25 25 148"
-		
+
 		"pin_to_sibling"			"CharacterSetupButton"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
@@ -1388,7 +1594,7 @@
 
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override" 	"25 25 25 148"
-		
+
 		"pin_to_sibling"			"GeneralStoreButton"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
@@ -1422,7 +1628,7 @@
 
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override" 	"25 25 25 148"
-		
+
 		"pin_to_sibling"			"SteamWorkshopButton"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
@@ -1456,7 +1662,7 @@
 
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override" 	"25 25 25 148"
-		
+
 		"pin_to_sibling"			"SettingButton"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
@@ -1490,7 +1696,7 @@
 
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override" 	"25 25 25 148"
-		
+
 		"pin_to_sibling"			"AdvSettingsButton"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
@@ -1532,7 +1738,7 @@
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
-	
+
 	"ReplayButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1573,7 +1779,7 @@
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
-	
+
 	"ReportBugButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1696,7 +1902,7 @@
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
-	
+
 	"ConsoleButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1737,7 +1943,7 @@
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
-	
+
 	"CoachPlayersButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1942,7 +2148,7 @@
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
-	
+
 	"SettingsButtonSDK"
 	{
 		"ControlName"	"CExImageButton"
@@ -1973,7 +2179,7 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2021,7 +2227,7 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -2053,7 +2259,7 @@
 		"bgcolor_override"	"25 25 25 168"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"BGPanel2"
 	{
 		"ControlName"	"EditablePanel"
@@ -2068,7 +2274,7 @@
 		"bgcolor_override"		"ColorCyan"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"DashboardDimmer"
 	{
 		"wide" "0"

@@ -6,6 +6,36 @@
 		"command"		"engine connect 91.216.250.12:27015"
 		"tooltip"		"Skial Dustbowl USA Server"
 	}
+	"HomeServerButton2"
+	{
+		"label"			"7"
+		"command"		"engine connect 91.216.250.11:27015"
+		"tooltip"		"Skial Payload USA Server"
+	}
+	"HomeServerButton3"
+	{
+		"label"			"6"
+		"command"		"engine connect 91.216.250.231:27015"
+		"tooltip"		"Skial Dustbowl EU Server"
+	}
+	"HomeServerButton4"
+	{
+		"label"			"9"
+		"command"		"engine connect 91.216.250.226:27015"
+		"tooltip"		"Skial Payload EU Server"
+	}
+	"HomeServerButton5"
+	{
+		"label"			"3"
+		"command"		"engine connect 91.216.250.10:27015"
+		"tooltip"		"Skial 2Fort USA Server"
+	}
+	"HomeServerButton6"
+	{
+		"label"			"4"
+		"command"		"engine connect 91.216.250.227:27015"
+		"tooltip"		"Skial 2Fort EU Server"
+	}
 	"AchievementsButton"
 	{
 		"label"			"b"
