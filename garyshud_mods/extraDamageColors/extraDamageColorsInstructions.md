@@ -4,7 +4,7 @@ These instructions detail how to add more custom damage colors to your Team Fort
 
 **File to Edit:**
 
-- `/tf2/resource/ui/ tools.res` (or similar path depending on your HUD's structure)
+- `/tf2/resource/ui/tools.res` (or similar path depending on your HUD's structure)
 
 **Instructions:**
 
