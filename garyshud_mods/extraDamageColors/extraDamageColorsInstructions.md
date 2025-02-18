@@ -4,11 +4,11 @@ These instructions detail how to add more custom damage colors to your Team Fort
 
 **File to Edit:**
 
-- `/tf2/resource/ui/ HudDamageAccount.res` (or similar path depending on your HUD's structure)
+- `/tf2/resource/ui/ tools.res` (or similar path depending on your HUD's structure)
 
 **Instructions:**
 
-1. **Open `HudDamageAccount.res`:** Locate and open the file responsible for defining the damage color settings.
+1. **Open `tools.res`:** Locate and open the file responsible for defining the damage color settings.
 
 2. **Copy an Existing Color Block:** Find one of the existing `"Damage[ColorName]"` blocks (e.g., `"DamageRed"`, `"DamageBlue"`) and copy the entire block of code.
 
@@ -75,6 +75,6 @@ Remember to replace `"DamageExistingColor"` with the `fieldname` of the color bu
 **Important Considerations:**
 
 - **HUD Structure:** The exact file path and structure may vary depending on the specific HUD you are using. Consult your HUD's documentation if you are unsure.
-- **Backup:** Always back up your `HudDamageAccount.res` file before making any changes.
+- **Backup:** Always back up your `tools.res` file before making any changes.
 - **Experimentation:** Positioning the new buttons often requires trial and error.
 - **Color Conflicts:** Be mindful of potential color conflicts with existing HUD elements.
