@@ -21,6 +21,6 @@ These instructions detail how to add more Home Server buttons or change the IP a
   - **`mainmenuoverride.res`**: Modify the `fieldName` and `pin_to_sibling` properties to position the new button correctly. The `pin_to_sibling` property determines which button this new button will be placed next to.
   - **`gamemenu.res`**: Modify the `label` (the text displayed on the button), `command` (the server connection command), and `tooltip` (the text displayed when hovering over the button) properties.
 
-- **Changing Server IP:** In `gamemenu.res`, locate the button you wish to modify and change the `command` property to the new server IP address. The command should look similar to: `connect <server IP address>`.
+- **Changing Server IP:** In `gamemenu.res`, locate the button you wish to modify and change the `command` property to the new server IP address. The command should look similar to: `"engine connect 91.216.250.12:27015"`
 
 By following these steps, you can customize your TF2 HUD with additional Home Server buttons or update the IP addresses of your existing servers.
