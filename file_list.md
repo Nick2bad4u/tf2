@@ -1,21 +1,3 @@
-# TF2
-
-<div align="center">
-    <img
-      src="https://github.com/Nick2bad4u/Nick2bad4u/blob/main/assets/GitHubProfileLines.gif?raw=true"
-      alt="Repository Banner Line Animation"
-      width="100%"
-    />
-</div>
-
-<!--
-	This README file references multiple GitHub Actions workflows via badges to indicate
-	the current status of various checks (linting, security scanning, deployment, etc.).
-	Each badge provides a direct link to the corresponding workflow run,
-	offering at-a-glance insight into the project's health checks and automation processes.
--->
-
-<!-- FILE_LIST_START -->
 ## File List
 
 <p>Here is a list of files included in this repository:</p>
@@ -932,12 +914,3 @@
 <li><a href="https://github.com/Nick2bad4u/tf2/blob/main/.vscode/settings.json" style="color: #e2af5c;">.vscode/settings.json</a></li>
 <li><a href="https://github.com/Nick2bad4u/tf2/blob/main/.vscode/generate_file_list.py" style="color: #79ff8b;">.vscode/generate_file_list.py</a></li>
 </ul>
-<!-- FILE_LIST_END -->
-
-<div align="center">
-    <img
-      src="https://github.com/Nick2bad4u/Nick2bad4u/blob/main/assets/GitHubProfileLines%20(14).gif?raw=true"
-      alt="Repository Banner Line Animation"
-      width="100%"
-    />
-</div>
