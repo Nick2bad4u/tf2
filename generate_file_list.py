@@ -80,11 +80,7 @@ IGNORE_LIST = [".git", "node_modules", ".DS_Store", ".history", "styles", "zwift
 # - name: The display name of the category.
 # - files: An empty list that will be populated with files matching the extension.
 FILE_CATEGORIES = [
-    {"ext": ".user.css", "name": "Userstyles", "files": []},
-    {"ext": ".user.js", "name": "Userscripts", "files": []},
-    {"ext": ".css", "name": "CSS", "files": []},
-    {"ext": ".js", "name": "JavaScript", "files": []},
-    {"ext": ".yml", "name": "YAML", "files": []},
+    {"ext": ".adasdasdasd", "name": "asdsadasda", "files": []},
 ]
 
 # Color exclusion options
