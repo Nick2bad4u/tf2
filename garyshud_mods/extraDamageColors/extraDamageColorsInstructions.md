@@ -31,7 +31,7 @@ Replace `[RedValue]`, `[GreenValue]`, and `[BlueValue]` with the RGB values for 
 
 6. **Adjust Color Overrides:** Modify the `"defaultFgColor_override"`, `"armedFgColor_override"`, and `"depressedFgColor_override"` properties to match the RGB values of your new color. This ensures the button itself displays the correct color.
 
-7. **Save the File:** Save the modified `HudDamageAccount.res` file.
+7. **Save the File:** Save the modified `tools.res` file.
 
 8. **Test in TF2:** Launch Team Fortress 2 and test your new damage color. You may need to restart the game or reload your HUD for the changes to take effect (`hud_reloadscheme` in console).
 
