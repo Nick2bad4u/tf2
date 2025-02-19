@@ -40,6 +40,7 @@ import random
 import urllib.parse
 import logging
 import argparse
+import math
 from collections import defaultdict
 
 # --- Configuration ---
@@ -80,7 +81,7 @@ IGNORE_LIST = [".git", "node_modules", ".DS_Store", ".history", "styles", "zwift
 # - name: The display name of the category.
 # - files: An empty list that will be populated with files matching the extension.
 FILE_CATEGORIES = [
-    {"ext": ".adasdasdasd", "name": "asdsadasda", "files": []},
+    {"ext": ".ext1", "name": "Extension 1", "files": []},
 ]
 # REPO_ROOT_HEADER determines the header text for files that are in the root of the repository.
 # This is useful for files that are not in a folder.
@@ -115,11 +116,9 @@ logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-
 def should_ignore(path, ignore_list):
     """Checks if a given path should be ignored based on the ignore list."""
     return any(ignore_item in path.split(os.sep) for ignore_item in ignore_list)
-
 
 def generate_file_list(directory, ignore_list):
     """Generates a list of files in a directory, excluding those in the ignore list."""
@@ -132,13 +131,11 @@ def generate_file_list(directory, ignore_list):
     logging.info(f"Generated file list with {len(file_list)} files.")
     return file_list
 
-
 def is_dark_color(hex_color):
     """Determines if a color is dark based on its hex value."""
     r, g, b = tuple(int(hex_color[i : i + 2], 16) for i in (1, 3, 5))
     luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b
     return luminance < 128
-
 
 def is_bright_color(hex_color):
     """Determines if a color is bright based on its hex value."""
@@ -146,13 +143,11 @@ def is_bright_color(hex_color):
     luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b
     return luminance > 200
 
-
 def is_readable_color(hex_color):
     """Determines if a color is readable based on its contrast with a white background."""
     r, g, b = tuple(int(hex_color[i : i + 2], 16) for i in (1, 3, 5))
     luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b
     return 50 < luminance < 200
-
 
 def get_random_color(color_range=None):
     """Generates a random hexadecimal color code, optionally within a specified range."""
@@ -177,13 +172,12 @@ def get_random_color(color_range=None):
             continue
         if EXCLUDE_BRIGHT_COLORS and is_bright_color(color):
             continue
-        if EXCLUDE_BLACKS and color.lower() == "#242424":
+        if EXCLUDE_BLACKS and color.lower() == "#000000":
             continue
         if ENSURE_READABLE_COLORS and not is_readable_color(color):
             continue
 
         return color
-
 
 def generate_file_list_with_links(
     file_list, repo_url, color_source="random", color_range=None, color_list=None
@@ -193,7 +187,7 @@ def generate_file_list_with_links(
     file_list_html = defaultdict(list)
     try:
         for file in file_list:
-            file_url = f"{repo_url}/blob/main/{file}".replace("\\", "/")
+            file_url = f"{repo_url}/blob/main/{file.replace(os.sep, '/')}"
             file_url = urllib.parse.quote(file_url, safe="/:")
 
             if color_source == "random":
@@ -206,13 +200,13 @@ def generate_file_list_with_links(
             for category in FILE_CATEGORIES:
                 if file.endswith(category["ext"]):
                     category["files"].append(
-                        f'<li><a href="{file_url}" style="color: {color};">{file}</a></li>'
+                        f'<li><a href="{file_url}" style="color: {color};">{file.replace(os.sep, "/")}</a></li>'
                     )
                     break
             else:
                 folder = os.path.dirname(file)
                 file_list_html[folder].append(
-                    f'<li><a href="{file_url}" style="color: {color};">{file}</a></li>'
+                    f'<li><a href="{file_url}" style="color: {color};">{file.replace(os.sep, "/")}</a></li>'
                 )
 
         logging.info(f"Generated HTML links for {len(file_list)} files.")
@@ -235,7 +229,6 @@ def generate_file_list_with_links(
 
     # Add files without a folder under a "Root" header
     if root_files:
-
         sorted_html.append(f'<li><h2>{REPO_ROOT_HEADER}</h2></li>')
         sorted_html.extend(sorted(root_files, key=lambda x: os.path.splitext(x)[1]))
 
@@ -266,18 +259,80 @@ def generate_file_list_with_links(
 
     return "\n".join(sorted_html)
 
+def save_file_list(file_list_html, output_file, chunk_size=100):
+    """Saves the list of HTML links to a file with lazy loading."""
+    file_list_html = file_list_html.replace("\\", "/")
+    file_list_chunks = []
+    current_chunk = []
+    for line in file_list_html.splitlines():
+        current_chunk.append(line)
+        if len(current_chunk) >= chunk_size:
+            file_list_chunks.append("\n".join(current_chunk))
+            current_chunk = []
+    if current_chunk:
+        file_list_chunks.append("\n".join(current_chunk))
 
-def save_file_list(file_list_html, output_file):
-    """Saves the list of HTML links to a file."""
     try:
         with open(output_file, "w") as f:
             f.write(f"## {HEADER_TEXT}\n\n")
-            f.write(f"<p> # {INTRO_TEXT}</p>\n\n")
-            f.write(file_list_html)
+            f.write(f"<p>{INTRO_TEXT}</p>\n\n")
+            for i in range(len(file_list_chunks)):
+                f.write(f'<div class="lazyload-placeholder" data-content="file-list-{i+1}"></div>\n')
+
+            # Add lazy loading script
+            f.write("""
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const lazyLoadElements = document.querySelectorAll('.lazyload-placeholder');
+
+    if ("IntersectionObserver" in window) {
+        let observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    let placeholder = entry.target;
+                    let contentId = placeholder.dataset.content;
+                    let file_list_html = '';
+                    switch(contentId) {
+""")
+            for i in range(len(file_list_chunks)):
+                f.write(f"""
+                        case 'file-list-{i+1}':
+                            file_list_html = `{file_list_chunks[i].replace('`', '`')}`
+                            break;""")
+            f.write("""
+                    }
+                    placeholder.innerHTML = file_list_html;
+                    observer.unobserve(placeholder);
+                }
+            });
+        });
+
+        lazyLoadElements.forEach(element => {
+            observer.observe(element);
+        });
+    } else {
+        // Fallback for browsers without IntersectionObserver support
+        lazyLoadElements.forEach(placeholder => {
+            let contentId = placeholder.dataset.content;
+            let file_list_html = '';
+            switch(contentId) {
+""")
+            for i in range(len(file_list_chunks)):
+                f.write(f"""
+                case 'file-list-{i+1}':
+                    file_list_html = `{file_list_chunks[i].replace('`', '`')}`
+                    break;""")
+            f.write("""
+            }
+            placeholder.innerHTML = file_list_html;
+        });
+    }
+});
+</script>
+""")
         logging.info(f"File list saved to {output_file}")
     except Exception as e:
         logging.error(f"Error saving file list to {output_file}: {e}")
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
