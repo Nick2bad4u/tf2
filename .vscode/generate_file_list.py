@@ -82,6 +82,18 @@ IGNORE_LIST = [".git", "node_modules", ".DS_Store", ".history", "styles", "zwift
 FILE_CATEGORIES = [
     {"ext": ".adasdasdasd", "name": "asdsadasda", "files": []},
 ]
+# REPO_ROOT_HEADER determines the header text for files that are in the root of the repository.
+# This is useful for files that are not in a folder.
+REPO_ROOT_HEADER = "Repo Root"
+
+# HEADER_TEXT determines the header text for the file list.
+# This is displayed at the top of the generated HTML file.
+HEADER_TEXT = "File List"
+
+# INTRO_TEXT determines the introductory text for the file list.
+# This is displayed below the header in the generated HTML file.
+INTRO_TEXT = "Here is a list of files included in this repository:"
+
 
 # Color exclusion options
 # If set to True, excludes dark colors from being used.
@@ -214,6 +226,24 @@ def generate_file_list_with_links(
             sorted_html.append(f'<li><h2>{category["name"]}</h2></li>')
             sorted_html.extend(sorted(category["files"]))
 
+    # Collect files without a folder
+    root_files = []
+    if "" in file_list_html:
+        root_files = file_list_html.pop("")
+
+    sorted_html = ["<ul>"]
+
+    # Add files without a folder under a "Root" header
+    if root_files:
+
+        sorted_html.append(f'<li><h2>{REPO_ROOT_HEADER}</h2></li>')
+        sorted_html.extend(sorted(root_files, key=lambda x: os.path.splitext(x)[1]))
+
+    for category in FILE_CATEGORIES:
+        if category["files"]:
+            sorted_html.append(f'<li><h2>{category["name"]}</h2></li>')
+            sorted_html.extend(sorted(category["files"]))
+
     regular_folders = [
         folder for folder in sorted(file_list_html) if not folder.startswith(".")
     ]
@@ -241,8 +271,8 @@ def save_file_list(file_list_html, output_file):
     """Saves the list of HTML links to a file."""
     try:
         with open(output_file, "w") as f:
-            f.write("## File List\n\n")
-            f.write("<p>Here is a list of files included in this repository:</p>\n\n")
+            f.write(f"## {HEADER_TEXT}\n\n")
+            f.write(f"<p> # {INTRO_TEXT}</p>\n\n")
             f.write(file_list_html)
         logging.info(f"File list saved to {output_file}")
     except Exception as e:
