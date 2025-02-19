@@ -275,7 +275,7 @@ def save_file_list(file_list_html, output_file, chunk_size=100):
     try:
         with open(output_file, "w") as f:
             f.write(f"## {HEADER_TEXT}\n\n")
-            f.write(f"<p>{INTRO_TEXT}</p>\n\n")
+            f.write(f"<p># {INTRO_TEXT}</p>\n\n")
             for i in range(len(file_list_chunks)):
                 f.write(f'<div class="lazyload-placeholder" data-content="file-list-{i+1}"></div>\n')
 
