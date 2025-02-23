@@ -92,6 +92,7 @@ import random
 import subprocess
 import urllib.parse
 from collections import defaultdict
+from tqdm import tqdm, trange
 
 # Anything set in the configuration section can be overridden by the command line arguments.
 # The command line arguments will take precedence over the configuration settings.
@@ -112,18 +113,30 @@ FALLBACK_REPO_URL = "https://github.com/author/repo"
 # Returns: str: The URL of the Git repository or the fallback URL
 def get_git_repo_url():
     try:
-        result = subprocess.run(  # Run the Git command to get the remote origin URL
-            [
-                "git", # Git command
-                "config", # Git command to get the configuration
-                "--get", # Get the value of the configuration
-                "remote.origin.url", # Get the remote origin URL
-            ],  # Get the remote origin URL
-            capture_output=True,  # Capture the output of the command
-            text=True,  # Return the output as text
-            check=True,  # Raise an exception if the command fails
-        )
-        url = result.stdout.strip()  # Get the URL from the output and strip whitespace
+        try:
+            result = subprocess.run(  # Run the Git command to get the remote origin URL
+                [
+                    "git",  # Git command
+                    "config",  # Git command to get the configuration
+                    "--get",  # Get the value of the configuration
+                    "remote.origin.url",  # Get the remote origin URL
+                ],  # Get the remote origin URL
+                capture_output=True,  # Capture the output of the command
+                text=True,  # Return the output as text
+                check=True,  # Raise an exception if the command fails
+            )
+            url = result.stdout.strip()  # Get the URL from the output and strip whitespace
+        except subprocess.CalledProcessError as e:  # Handle errors from the Git command
+            logging.error(  # Log the error
+                f"\033[1;31mError running Git command: {e}\033[0m",
+                exc_info=True,
+            )
+            url = ""  # Set the URL to an empty string
+
+        if not url:  # Check if the URL is empty
+            raise subprocess.CalledProcessError(  # Raise an error if the URL is empty
+                1, "git config --get remote.origin.url"  # Provide an error message
+            )
 
         # Check if the URL ends with ".git" and remove it
         if url.endswith(".git"):  # Check if the URL ends with ".git"
@@ -131,17 +144,22 @@ def get_git_repo_url():
 
         # Ensure the URL is an HTTPS URL by converting SSH URLs if necessary
         if url.startswith("git@github.com:"):  # Check if the URL is a GitHub SSH URL
-            url = url.replace(":", "/").replace("git@", "https://")  # Convert the URL to HTTPS
+            url = url.replace("git@github.com:", "https://github.com/")  # Convert the URL to HTTPS
         # Check if the URL is a GitLab SSH URL
         elif url.startswith("git@gitlab.com:"):
-            url = url.replace(":", "/").replace("git@", "https://gitlab.com/")  # Convert the URL to HTTPS
+            url = url.replace("git@gitlab.com:", "https://gitlab.com/")  # Convert the URL to HTTPS
         elif url.startswith("git@bitbucket.org:"):  # Check if the URL is a Bitbucket SSH URL
-            url = url.replace(":", "/").replace("git@", "https://bitbucket.org/")  # Convert the URL to HTTPS
-
+            url = url.replace("git@bitbucket.org:", "https://bitbucket.org/")  # Convert the URL to HTTPS
         return url  # Return the formatted URL
     except subprocess.CalledProcessError as e:  # Handle errors from the Git command
         logging.error(
             f"\033[1;31mError getting Git repository URL: {e}\033[0m",
+            exc_info=True,  # Log the error
+        )
+        return FALLBACK_REPO_URL  # Return the fallback URL if an error occurs
+    except Exception as e:  # Handle any other exceptions
+        logging.error(
+            f"\033[1;31mUnexpected error: {e}\033[0m",
             exc_info=True,  # Log the error
         )
         return FALLBACK_REPO_URL  # Return the fallback URL if an error occurs
@@ -159,7 +177,14 @@ ROOT_DIRECTORY = "."
 
 # Ignore list
 # Specifies a list of files and folders to ignore during the directory walk.
-IGNORE_LIST = [".git", "node_modules", ".DS_Store", ".history", "styles", "zwiftbikes"]
+IGNORE_LIST = [
+    ".git",
+    "node_modules",
+    ".DS_Store",
+    ".history",
+    "styles",
+    "zwiftbikes",
+]
 
 # Output file name
 # Specifies the default name of the output HTML file.
@@ -174,15 +199,21 @@ DEFAULT_COLOR_SOURCE = "random"
 
 # Predefined color list
 # Specifies a list of predefined colors to choose from when the color source is set to "list".
-DEFAULT_COLOR_LIST = ["#FF0000", "#00FF00", "#0000FF", "#FFFF00", "#FF00FF", "#00FFFF"]
+DEFAULT_COLOR_LIST = [
+    "#FF0000",
+    "#00FF00",
+    "#0000FF",
+    "#FFFF00",
+    "#FF00FF",
+    "#00FFFF",
+]
 
 # Color range
 # Specifies the range of colors for random color generation.
 # This should be a tuple of two hexadecimal color codes representing the lower and upper bounds of the range.
-# Default value is None, which indicates the full random range.
+# Default value is ("#000000", "#FFFFFF"), which indicates the full random range. (Can be set to None for full random range)
 # Example: DEFAULT_COLOR_RANGE = ("#000000", "#FFFFFF")
-DEFAULT_COLOR_RANGE = None
-
+DEFAULT_COLOR_RANGE = ("#000000", "#FFFFFF")
 # Chunk size
 # Specifies the number of lines per chunk for lazy loading.
 CHUNK_SIZE = 40
@@ -214,8 +245,16 @@ ROOT_MARGIN_MOBILE = "0px 0px 100px 0px"
 # - name: The display name of the category.
 # - files: An empty list that will be populated with files matching the extension.
 FILE_CATEGORIES = [
-    {"ext": ".user.css", "name": "Userstyles", "files": []},  # Userstyles category
-    {"ext": ".user.js", "name": "Userscripts", "files": []},  # Userscripts category
+    {
+        "ext": ".user.css",
+        "name": "Userstyles",
+        "files": [],
+    },  # Userstyles category
+    {
+        "ext": ".user.js",
+        "name": "Userscripts",
+        "files": [],
+    },  # Userscripts category
     {"ext": ".css", "name": "CSS", "files": []},  # CSS category
     {"ext": ".js", "name": "JavaScript", "files": []},  # JavaScript category
     {"ext": ".yml", "name": "YAML", "files": []},  # YAML category
@@ -233,7 +272,6 @@ HEADER_TEXT = "## File List"
 # This is displayed below the header in the generated HTML file.
 INTRO_TEXT = "# Here is a list of files included in this repository:"
 
-
 # Color exclusion options
 
 # If set to True, excludes dark colors from being used.
@@ -246,46 +284,232 @@ EXCLUDE_BRIGHT_COLORS = False
 # Luminance threshold for determining if a color is bright (anything above this will be considered bright)
 BRIGHT_COLOR_LUMINANCE_THRESHOLD = 200
 
-# If set to True, excludes colors below the EXCLUDE_BLACKS_THRESHHOLD color from being used.
-EXCLUDE_BLACKS = True
+# If set to True, excludes colors below the EXCLUDE_BLACKS_THRESHOLD color from being used.
+EXCLUDE_BLACKS = False
 # Any colors below this will not be generated if EXCLUDE_BLACKS is set to True.
 # (Below Refers To Vertically on the Color Picker)
 # Example: EXCLUDE_BLACKS_THRESHOLD = "#222222"
 EXCLUDE_BLACKS_THRESHOLD = "#222222"
-# Max attempts to try to find a color below the threshhold. Useful if you set the EXCLUDE_BLACK_THRESHOLD really high.
-MAX_ATTEMPTS = 100
+# Max attempts to try to find a color below the threshold. Useful if you set the EXCLUDE_BLACKS_THRESHOLD really high.
+MAX_ATTEMPTS = 1000000
 # If set to True, ensures that the generated colors are readable by maintaining a certain contrast ratio with a white background.
-ENSURE_READABLE_COLORS = True
+ENSURE_READABLE_COLORS = False
+
+
 # Log Level Setting for the logger, defaults to INFO.
 # Choices: "DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"
 LOG_LEVEL_SETTING = "INFO"
+
 # --- End Configuration ---
+# --- Configuration Validation ---
+try:
+    # Validate the configuration settings
+    if not isinstance(DEFAULT_GIT_REPO_URL, str):
+        raise ValueError("DEFAULT_GIT_REPO_URL must be a string.")
+
+    if not os.path.isdir(ROOT_DIRECTORY):
+        raise ValueError("ROOT_DIRECTORY must be a valid directory path.")
+
+    if not isinstance(IGNORE_LIST, list) or not all(isinstance(item, str) for item in IGNORE_LIST):
+        raise ValueError("IGNORE_LIST must be a list of strings.")
+
+    if not isinstance(DEFAULT_OUTPUT_FILE, str):
+        raise ValueError("DEFAULT_OUTPUT_FILE must be a string.")
+
+    if DEFAULT_COLOR_SOURCE not in ["random", "list"]:
+        raise ValueError("DEFAULT_COLOR_SOURCE must be either 'random' or 'list'.")
+
+    if not isinstance(DEFAULT_COLOR_LIST, list) or not all(  # Check if the color list is a list of hex color strings
+        isinstance(color, str)
+        and color.startswith("#")
+        and len(color) == 7  # Check if the color is a valid hex color code
+        for color in DEFAULT_COLOR_LIST  # Iterate over the colors in the list
+    ):
+        raise ValueError(  # Raise an error if the color list is invalid
+            "DEFAULT_COLOR_LIST must be a list of hex color strings (e.g., '#FF0000')."  # Provide an error message
+        )
+
+    if DEFAULT_COLOR_RANGE is not None:  # Check if the color range is not None
+        if (  # Check if the color range is invalid
+            not isinstance(DEFAULT_COLOR_RANGE, tuple)  # Check if the color range is a tuple
+            or len(DEFAULT_COLOR_RANGE) != 2  # Check if the color range has two elements
+            or not all(  # Check if the color range elements are valid hex color strings
+                isinstance(color, str)  # Check if the color is a string
+                and color.startswith("#")  # Check if the color starts with a hash symbol
+                and len(color) == 7  # Check if the color has 7 characters
+                for color in DEFAULT_COLOR_RANGE  # Iterate over the colors in the range
+            )
+        ):
+            raise ValueError(  # Raise an error if the color range is invalid
+                "DEFAULT_COLOR_RANGE must be a tuple of two hex color strings (e.g., ('#000000', '#FFFFFF'))."  # Provide an error message
+            )
+
+    if not isinstance(CHUNK_SIZE, int) or CHUNK_SIZE <= 0:  # Check if the chunk size is a positive integer
+        raise ValueError("CHUNK_SIZE must be a positive integer.")  # Raise an error if the chunk size is invalid
+
+    if (
+        not isinstance(VIEWPORT_MOBILE, int) or VIEWPORT_MOBILE <= 0
+    ):  # Check if the mobile viewport size is a positive integer
+        raise ValueError(
+            "VIEWPORT_MOBILE must be a positive integer."
+        )  # Raise an error if the mobile viewport size is invalid
+
+    if (
+        not isinstance(VIEWPORT_TABLET, int) or VIEWPORT_TABLET <= 0
+    ):  # Check if the tablet viewport size is a positive integer
+        raise ValueError(
+            "VIEWPORT_TABLET must be a positive integer."
+        )  # 	Raise an error if the tablet viewport size is invalid
+
+    if (
+        not isinstance(VIEWPORT_SMALL_DESKTOP, int)  # Check if the small desktop viewport size is a positive integer
+        or VIEWPORT_SMALL_DESKTOP <= 0  # Check if the small desktop viewport size is a positive integer
+    ):
+        raise ValueError(
+            "VIEWPORT_SMALL_DESKTOP must be a positive integer."
+        )  # Raise an error if the small desktop viewport size is invalid
+
+    if not isinstance(ROOT_MARGIN_LARGE_DESKTOP, str):  # Check if the root margin for large desktops is a string
+        raise ValueError(
+            "ROOT_MARGIN_LARGE_DESKTOP must be a string."
+        )  # Raise an error if the root margin for large desktops is invalid
+
+    if not isinstance(ROOT_MARGIN_SMALL_DESKTOP, str):  # Check if the root margin for small desktops is a string
+        raise ValueError(
+            "ROOT_MARGIN_SMALL_DESKTOP must be a string."
+        )  # Raise an error if the root margin for small desktops is invalid
+
+    if not isinstance(ROOT_MARGIN_TABLET, str):  # Check if the root margin for tablets is a string
+        raise ValueError(
+            "ROOT_MARGIN_TABLET must be a string."
+        )  # Raise an error if the root margin for tablets is invalid
+
+    if not isinstance(ROOT_MARGIN_MOBILE, str):  # Check if the root margin for mobile devices is a string
+        raise ValueError(
+            "ROOT_MARGIN_MOBILE must be a string."
+        )  # Raise an error if the root margin for mobile devices is invalid
+
+    if not isinstance(FILE_CATEGORIES, list) or not all(  # Check if the file categories are a list of dictionaries
+        isinstance(category, dict)  # Check if the category is a dictionary
+        and "ext" in category  # Check if the category has an 'ext' key
+        and "name" in category  # Check if the category has a 'name' key
+        and "files" in category  # Check if the category has a 'files' key
+        for category in FILE_CATEGORIES  # Iterate over the categories
+    ):
+        raise ValueError(  # Raise an error if the file categories are invalid
+            "FILE_CATEGORIES must be a list of dictionaries with 'ext', 'name', and 'files' keys."  # Provide an error message
+        )
+
+    if not isinstance(REPO_ROOT_HEADER, str):  # Check if the repository root header is a string
+        raise ValueError(
+            "REPO_ROOT_HEADER must be a string."
+        )  # Raise an error if the repository root header is invalid
+
+    if not isinstance(HEADER_TEXT, str):  # Check if the header text is a string
+        raise ValueError("HEADER_TEXT must be a string.")  # Raise an error if the header text is invalid
+
+    if not isinstance(INTRO_TEXT, str):  # Check if the introductory text is a string
+        raise ValueError("INTRO_TEXT must be a string.")  # Raise an error if the introductory text is invalid
+
+    # Validate the color exclusion settings
+    if not (
+        0 <= DARK_COLOR_LUMINANCE_THRESHOLD <= 255
+    ):  # Check if the dark color luminance threshold is between 0 and 255
+        raise ValueError(  # Raise an error if the dark color luminance threshold is invalid
+            "DARK_COLOR_LUMINANCE_THRESHOLD must be between 0 and 255."  # Provide an error message
+        )
+
+    if not (
+        0 <= BRIGHT_COLOR_LUMINANCE_THRESHOLD <= 255
+    ):  # Check if the bright color luminance threshold is between 0 and 255
+        raise ValueError(  # Raise an error if the bright color luminance threshold is invalid
+            "BRIGHT_COLOR_LUMINANCE_THRESHOLD must be between 0 and 255."  # Provide an error message
+        )
+
+    # Validate the EXCLUDE_BLACKS_THRESHOLD setting
+    if (
+        not EXCLUDE_BLACKS_THRESHOLD.startswith("#")  # Check if it starts with '#'
+        or len(EXCLUDE_BLACKS_THRESHOLD) != 7  # Check if it has 7 characters
+    ):
+        raise ValueError("EXCLUDE_BLACKS_THRESHOLD must be a hex color code in the format #RRGGBB.")
+
+    try:
+        int(EXCLUDE_BLACKS_THRESHOLD[1:], 16)  # Try to convert the hex code to an integer
+    except ValueError:
+        raise ValueError("EXCLUDE_BLACKS_THRESHOLD must be a valid hex color code.")
+
+    # Validate the log level setting
+    VALID_LOG_LEVELS = [
+        "DEBUG",
+        "INFO",
+        "WARNING",
+        "ERROR",
+        "CRITICAL",
+    ]  # Provides list of valid log settings
+    if (
+        LOG_LEVEL_SETTING not in VALID_LOG_LEVELS
+    ):  # Checks if the LOG_LEVEL_SETTING matches any of the words in VALID_LOG_LEVELS
+        raise ValueError(f"Invalid log level: {LOG_LEVEL_SETTING}. Valid log levels are: {', '.join(VALID_LOG_LEVELS)}")
+except ValueError as e:  # Handle errors
+    logging.error(f"\033[1;31mConfiguration validation error: {e}\033[0m")  # Log the error
+    exit(1)  # Exit the script with an error code
+
+# --- End Configuration Validation ---
 
 
-def should_ignore(path, ignore_list):  # Find out which files and directories to ignore
+def sort_color_range(color_range):
+    """
+    Sorts a tuple of two hex color strings from low to high.
+
+    Args:
+            color_range (tuple): A tuple containing two hex color strings.
+
+    Returns:
+            tuple: A sorted tuple of two hex color strings.
+    """
+    try:
+        return tuple(  # Return the sorted tuple of hex color strings
+            sorted(color_range, key=lambda color: int(color[1:], 16))  # Sorts the color ranged from low to high
+        )
+    except ValueError as e:  # Handle errors
+        logging.error(f"\033[1;31mError sorting color range: {e}\033[0m")  # Log the error
+        return color_range  # Return the original color range by default
+
+
+# Function to determine if a path should be ignored based on the ignore list
+# Returns True if the path should be ignored, False otherwise
+def should_ignore(  # Determine if a path should be ignored based on the ignore list
+    path,
+    ignore_list,  # Path to check and the list of files and folders to ignore
+):  # Returns True if the path should be ignored, False otherwise
     """
     Determines if a path should be ignored based on the ignore list.
 
     Args:
-            path (str): The path to check.
-            ignore_list (list): The list of files and folders to ignore.
+        path (str): The path to check.
+        ignore_list (list): The list of files and folders to ignore.
 
     Returns:
-            bool: True if the path should be ignored, False otherwise.
+        bool: True if the path should be ignored, False otherwise.
     """
-    try:
-        path_parts = set(path.split(os.sep))  # Split the path into parts
-        # Check if any part of the path is in the ignore list
-        return any(ignore_item in path_parts for ignore_item in ignore_list)  # Returns True if any part of the path is in the ignore list
+    try:  # Try to determine if the path should be ignored
+        normalized_path = os.path.normpath(  # Normalize the path
+            path  # Path to normalize
+        )  # Normalize the path to use Unix-like separators
+        for ignore_item in ignore_list:  # Iterate over the items in the ignore list
+            if ignore_item in normalized_path.split(os.sep):  # Check if the ignore item is in the normalized path
+                return True  # Return True if the path should be ignored
+        return False  # Return False if the path should not be ignored
     except ValueError as e:  # Handle errors
-        logging.error(
-            # Log the error
-            f"\033[1;31mError in should_ignore function: {type(e).__name__}: {e}\033[0m"
-        )
+        logging.error(f"\033[1;31mError in should_ignore function: {type(e).__name__}: {e}\033[0m")  # Log the error
         return False  # Return False by default
 
 
-def generate_file_list(directory, ignore_list):  # Generate a list of files in a directory
+# Function to generate a list of files in a directory, excluding those that match the ignore list
+# Returns a list of relative file paths that do not match the ignore list
+
+
+def generate_file_list(directory, ignore_list):
     """
     Generate a list of files in a directory, excluding those that match the ignore list.
 
@@ -302,33 +526,48 @@ def generate_file_list(directory, ignore_list):  # Generate a list of files in a
     """
     file_list = set()  # Using a set to avoid duplicates
     try:  # Try to generate the file list
-        # Walk through the directory
-        for root, dirs, files in os.walk(directory):
+        # Walk through the directory with a progress bar
+        for root, dirs, files in tqdm(os.walk(directory), desc="Walking through directories"):
             # Filter directories in-place to avoid walking into ignored directories
             dirs[:] = list(
                 filter(
-                    lambda d: not should_ignore(os.path.join(root, d), ignore_list),  # Filter out ignored directories
+                    lambda d: not should_ignore(  # Check if the directory should be ignored
+                        os.path.join(root, d), ignore_list  # Directory to check
+                    ),  # Filter out ignored directories
                     dirs,  # Directories to filter
                 )
             )
             for file in files:  # Iterate over the files
                 file_path = os.path.join(root, file)  # Get the full file path
-                ignore_file = should_ignore(file_path, ignore_list)  # Check if the file should be ignored
-                if not ignore_file:  # If the file should not be ignored
-                    file_list.add(os.path.relpath(file_path, directory))  # Add the relative file path to the list
-        logging.log(
-            getattr(logging, LOG_LEVEL),
-            # Log the number of files generated
+                ignore_file = should_ignore(  # Determine if the file should be ignored
+                    file_path, ignore_list  # File path and ignore list
+                )  # Check if the file should be ignored
+                if not ignore_file:  # Check if the file should not be ignored
+                    relative_path = os.path.relpath(  # Get the relative file path
+                        file_path, directory  # File path and root directory
+                    )
+                    normalized_path = relative_path.replace(  # Normalize the path to use Unix-like separators
+                        os.sep,
+                        "/",  # Replace the OS-specific separator with a forward slash
+                    )  # Normalize the path
+                    file_list.add(normalized_path)  # Add the normalized path to the set  # Normalized path to add
+        logging.log(  # Log the number of files generated
+            getattr(logging, LOG_LEVEL_SETTING),  # Get the log level setting
             f"\033[1;32mGenerated file list with {len(file_list)} files.\033[0m",
         )
     except (OSError, ValueError) as e:  # Handle errors
-        logging.error(
-            # Log the error
-            f"\033[1;31mError generating file list: {type(e).__name__}: {e}\033[0m"
-        )
-    return list(file_list)  # Return the list of files
+        logging.error(f"\033[1;31mError generating file list: {type(e).__name__}: {e}\033[0m")  # Log the error
+    return sorted(  # Return the sorted list of files
+        file_list,
+        key=lambda x: (
+            os.path.dirname(x),
+            os.path.basename(x),
+        ),  # Sort the files by directory and file name
+    )
 
 
+# Function to calculate the luminance of a hex color
+# Returns the calculated luminance value of the color or 0 if an error occurs
 def calculate_luminance(hex_color):  # Calculate the luminance of a hex color
     """
     Calculate the luminance of a hex color.
@@ -350,6 +589,8 @@ def calculate_luminance(hex_color):  # Calculate the luminance of a hex color
         return 0  # Return 0 by default
 
 
+# Function to determine if a color should be excluded based on the exclusion settings
+# Returns True if the color should be excluded, False otherwise
 def is_dark_color(hex_color):  # Determine if a hex color is dark
     """
     Determines if a given hex color code represents a dark color.
@@ -368,13 +609,17 @@ def is_dark_color(hex_color):  # Determine if a hex color is dark
       `DARK_COLOR_LUMINANCE_THRESHOLD` constant to determine if the color is dark.
     """
     try:  # Try to determine if the color is dark
-        luminance = calculate_luminance(hex_color)  # Calculate the luminance of the color
-        return luminance < DARK_COLOR_LUMINANCE_THRESHOLD  # Return True if the luminance is below the threshold
+        luminance = calculate_luminance(hex_color)  # Calculate the luminance of the color  # Hex color code
+        return (  # Return True if the luminance is below the threshold
+            luminance < DARK_COLOR_LUMINANCE_THRESHOLD  # Check if the luminance is below the threshold
+        )
     except Exception as e:  # Handle errors
         logging.error(f"\033[1;31mError in is_dark_color function: {e}\033[0m")  # Log the error
         return False  # Return False by default
 
 
+# Function to determine if a color should be excluded based on the exclusion settings
+# Returns True if the color should be excluded, False otherwise
 def is_bright_color(hex_color):  # Determine if a hex color is bright
     """
     Determines if a given hex color is considered bright based on its luminance.
@@ -392,13 +637,17 @@ def is_bright_color(hex_color):  # Determine if a hex color is bright
       Error: Logs an error message if an exception occurs during luminance calculation.
     """
     try:  # Try to determine if the color is bright
-        luminance = calculate_luminance(hex_color)  # Calculate the luminance of the color
-        return luminance > BRIGHT_COLOR_LUMINANCE_THRESHOLD  # Return True if the luminance is above the threshold
+        luminance = calculate_luminance(hex_color)  # Hex color code  # Calculate the luminance of the color
+        return (
+            luminance > BRIGHT_COLOR_LUMINANCE_THRESHOLD  # Check if the luminance is above the threshold
+        )  # Return True if the luminance is above the threshold
     except Exception as e:  # Handle errors
         logging.error(f"\033[1;31mError in is_bright_color function: {e}\033[0m")  # Log the error
         return False  # Return False by default
 
 
+# Function to determine if a color should be excluded based on the exclusion settings
+# Returns True if the color should be excluded, False otherwise
 def is_readable_color(hex_color):  # Determine if a hex color is readable
     """
     Determines if a given hex color is within a readable luminance range.
@@ -413,14 +662,27 @@ def is_readable_color(hex_color):  # Determine if a hex color is readable
       Exception: If there is an error in calculating the luminance, it logs the error and returns False.
     """
     try:  # Try to determine if the color is readable
-        luminance = calculate_luminance(hex_color)  # Calculate the luminance of the color
-        return 50 < luminance < 200  # Return True if the luminance is within the readable range
+        luminance = calculate_luminance(hex_color)  # Calculate the luminance of the color  # Hex color code
+        return (  # Check if the luminance is within the readable range
+            50 < luminance < 200
+        )  # Return True if the luminance is within the range
     except Exception as e:  # Handle errors
         logging.error(f"\033[1;31mError in is_readable_color function: {e}\033[0m")  # Log the error
         return False  # Return False by default
 
 
-def get_random_color(color_range=None):  # Generate a random color
+# Function to generate a random ANSI color code
+def get_random_ansi_color():
+    return f"\033[38;5;{random.randint(0, 255)}m"
+
+
+# Generate a random ANSI color code
+random_color = get_random_ansi_color()
+
+
+# Function to get a random color
+# Returns a random color in hexadecimal format
+def get_random_color(color_range=DEFAULT_COLOR_RANGE):
     """
     Generate a random color in hexadecimal format.
 
@@ -437,55 +699,55 @@ def get_random_color(color_range=None):  # Generate a random color
     Logs:
       Error: If the color range is invalid or if a valid color could not be generated within the maximum attempts.
     """
-    try:
-        if color_range and any(  # Check if the color range is invalid
-            int(color_range[0][i : i + 2], 16) > int(color_range[1][i : i + 2], 16) for i in range(1, 7, 2)  # Check if the start color is greater than the end color  # Iterate over the color range
+    try:  # Try to generate a random color
+        if color_range and any(  # Check if the color range is invalid (start color is greater than end color)
+            int(color_range[0][i : i + 2], 16) > int(color_range[1][i : i + 2], 16) for i in range(1, 7, 2)
         ):
             logging.error(
-                # Log the error
                 f"\033[1;31mInvalid color range: {color_range[0]} should be <= {color_range[1]}\033[0m"
-            )
-            logging.warning(
-                # Log a warning if a random color is generated
-                "\033[1;33mGenerated a random color due to error in color range.\033[0m"
-            )
-            # Return a random color if the color range is invalid
-            return f"#{random.randint(0, 0xFFFFFF):06x}"
-        for _ in range(MAX_ATTEMPTS):  # Try to generate a valid color within the maximum attempts
-            if color_range:  # Check if a color range is specified
-                r_min, g_min, b_min = [int(color_range[0][i : i + 2], 16) for i in (1, 3, 5)]  # Get the RGB values of the start color  # Convert the hex color to RGB values
-                r_max, g_max, b_max = [  # Get the RGB values of the end color
-                    int(color_range[1][i : i + 2], 16)  # Convert the hex color to RGB values
-                    for i in (  # Iterate over the color range
-                        1,
-                        3,
-                        5,
-                    )  # Convert the hex color to RGB values  # Iterate over the color range
-                ]  # Get the RGB values of the end color
+            )  # Log the error
+            logging.warning("\033[1;33mGenerated a random color due to error in color range.\033[0m")  # Log a warning
+            return f"#{random.randint(0, 0xFFFFFF):06x}"  # Return a random color if the range is invalid
+
+        show_progress = logging.getLogger().level in [
+            logging.DEBUG,
+            logging.INFO,
+        ]  # Check if the progress bar should be shown
+        progress_bar = (  # Create a progress bar range
+            trange(
+                MAX_ATTEMPTS,
+                desc="Generating random color",
+                bar_format=f"{random_color}{{l_bar}}{{bar}}{{r_bar}}\033[0m",
+                disable=not show_progress,
+            )  # Show the progress bar if the log level is DEBUG or INFO
+            if show_progress  # Show the progress bar if the log level is DEBUG or INFO
+            else range(MAX_ATTEMPTS)  # Otherwise, do not show the progress bar
+        )
+
+        for _ in progress_bar:  # Iterate over the progress bar range
+            if color_range:  # Check if a color range is provided
+                r_min, g_min, b_min = [
+                    int(color_range[0][i : i + 2], 16) for i in (1, 3, 5)
+                ]  # Get the minimum RGB values
+                r_max, g_max, b_max = [
+                    int(color_range[1][i : i + 2], 16) for i in (1, 3, 5)
+                ]  # Get the maximum RGB values
                 r = random.randint(r_min, r_max)  # Generate a random value for the red component
                 g = random.randint(g_min, g_max)  # Generate a random value for the green component
                 b = random.randint(b_min, b_max)  # Generate a random value for the blue component
-                # Format the RGB values as a hex color
-                color = f"#{r:02x}{g:02x}{b:02x}"
-            else:  # If no color range is specified (full random range)
-                # Generate a random color
-                color = f"#{random.randint(0, 0xFFFFFF):06x}"
-            # Check if the color should not be excluded
-            if not should_exclude_color(color):
-                return color  # Return the color if it is valid
-        logging.error(
-            # Log an error if a valid color could not be generated
-            "\033[1;31mFailed to generate a valid color within max attempts.\033[0m"
-        )
-        logging.warning(
-            # Log a warning if a random color is generated
-            "\033[1;33mGenerated a random color due to error in color range.\033[0m"
-        )
-        # Return a random color if a valid color could not be generated
-        return f"#{random.randint(0, 0xFFFFFF):06x}"
-    except Exception as e:
-        logging.error(f"\033[1;31mError generating random color: {e}\033[0m")
-        return f"#{random.randint(0, 0xFFFFFF):06x}"
+                color = f"#{r:02x}{g:02x}{b:02x}"  # Combine the RGB values into a color string
+            else:  # If no color range is provided
+                color = f"#{random.randint(0, 0xFFFFFF):06x}"  # Generate a random color
+
+            if not should_exclude_color(color):  # Check if the color should not be excluded
+                return color  # Return the color if it should not be excluded
+
+        logging.error("\033[1;31mFailed to generate a valid color within max attempts.\033[0m")  # Log the error
+        logging.warning("\033[1;33mGenerated a random color due to error in color range.\033[0m")  # Log a warning
+        return f"#{random.randint(0, 0xFFFFFF):06x}"  # Return a random color if a valid color could not be generated within the maximum attempts
+    except Exception as e:  # Handle errors
+        logging.error(f"\033[1;31mError generating random color: {e}\033[0m")  # Log the error
+        return f"#{random.randint(0, 0xFFFFFF):06x}"  # Return a random color by default
 
 
 def should_exclude_color(color):  # Determine if a color should be excluded
@@ -520,7 +782,9 @@ def should_exclude_color(color):  # Determine if a color should be excluded
         return False
 
 
-def is_black_color(color):  # Determines if a given color is considered black based on a threshold.
+def is_black_color(
+    color,
+):  # Determines if a given color is considered black based on a threshold.
     """
     Determines if a given color is considered black based on a threshold.
 
@@ -542,7 +806,13 @@ def is_black_color(color):  # Determines if a given color is considered black ba
         return False
 
 
-def generate_file_list_with_links(file_list, repo_url, color_source="random", color_range=None, color_list=None):  # Generate the file list with links
+def generate_file_list_with_links(
+    file_list,
+    repo_url,
+    color_source=DEFAULT_COLOR_SOURCE,
+    color_range=DEFAULT_COLOR_RANGE,
+    color_list=DEFAULT_COLOR_LIST,
+):
     """Generates an HTML list of files with links to a repository, categorized by file type and folder.
 
     Args:
@@ -574,7 +844,9 @@ def generate_file_list_with_links(file_list, repo_url, color_source="random", co
       - The function uses global constants such as `FILE_CATEGORIES`, `DEFAULT_COLOR_LIST`, `REPO_ROOT_HEADER`, and `LOG_LEVEL`.
       - The function depends on helper functions `get_random_color` and `sort_files_by_extension`.
     """
-    color_list = color_list or DEFAULT_COLOR_LIST  # Use the provided color list or fall back to the default color list if not provided
+    color_list = (
+        color_list or DEFAULT_COLOR_LIST
+    )  # Use the provided color list or fall back to the default color list if not provided
     file_list_html = defaultdict(list)  # Use defaultdict to group files by folder
     try:  # Try to generate the file list with links
         for file in file_list:  # Iterate over the file list
@@ -587,18 +859,24 @@ def generate_file_list_with_links(file_list, repo_url, color_source="random", co
                 color = random.choice(color_list)  # Choose a random color from the list
             else:  # If the color source is invalid
                 color = get_random_color()  # Generate a random color
-                logging.warning(f"\033[1;33mGenerated a random color due to error in color source.\033[0m")  # Log a warning
+                logging.warning(
+                    f"\033[1;33mGenerated a random color due to error in color source.\033[0m"
+                )  # Log a warning
 
             for category in FILE_CATEGORIES:  # Iterate over the file categories
                 if file.endswith(category["ext"]):  # Check if the file ends with the category extension
-                    category["files"].append(f'<li><a href="{file_url}" style="color: {color};">{file.replace(os.sep, "/")}</a></li>')  # Add the file to the category  # Create the HTML link
+                    category["files"].append(
+                        f'<li><a href="{file_url}" style="color: {color};">{file.replace(os.sep, "/")}</a></li>'
+                    )  # Add the file to the category  # Create the HTML link
                     break  # Break out of the loop
             else:  # If the file does not belong to any category
                 folder = os.path.dirname(file)  # Get the folder name
-                file_list_html[folder].append(f'<li><a href="{file_url}" style="color: {color};">{file.replace(os.sep, "/")}</a></li>')  # Add the file to the folder  # Create the HTML link
+                file_list_html[folder].append(
+                    f'<li><a href="{file_url}" style="color: {color};">{file.replace(os.sep, "/")}</a></li>'
+                )  # Add the file to the folder  # Create the HTML link
 
         logging.log(  # Log the number of HTML links generated
-            getattr(logging, LOG_LEVEL),
+            getattr(logging, LOG_LEVEL_SETTING),
             f"\033[1;32mGenerated HTML links for {len(file_list)} files.\033[0m",
         )
     except (OSError, ValueError, KeyError) as e:  # Handle errors
@@ -677,7 +955,7 @@ def save_file_list(file_list_html, output_file):  # Save the file list to an out
             write_lazyload_placeholders(f, file_list_chunks)
             write_lazyload_script(f, file_list_chunks)
         logging.log(
-            getattr(logging, LOG_LEVEL),
+            getattr(logging, LOG_LEVEL_SETTING),
             f"\033[1;32mFile list saved to {output_file}\033[0m",
         )
     except (IOError, OSError) as e:
@@ -743,13 +1021,15 @@ def write_lazyload_placeholders(f, file_list_chunks):
     try:
         for i in range(len(file_list_chunks)):
             # Write a div with a class for lazy loading and a data attribute to identify the content
-            f.write(f"""<div class="lazyload-placeholder" data-content="file-list-{i+1}" style="min-height: 400px;"></div>\n""")
+            f.write(
+                f"""<div class="lazyload-placeholder" data-content="file-list-{i+1}" style="min-height: 400px;"></div>\n"""
+            )
     except Exception as e:
         # Log an error message if writing to the file fails
         logging.error(f"\033[1;31mError writing lazyload placeholders: {e}\033[0m")
 
 
-def write_lazyload_script(f, file_list_chunks):
+def write_lazyload_script(f, file_list_chunks):  # Write the lazy loading script to the file
     """Writes the lazy loading script to the output file.
 
     Args:
@@ -759,63 +1039,77 @@ def write_lazyload_script(f, file_list_chunks):
     Raises:
             Exception: If there is an error writing to the file.
     """
-    try:
-        f.write(
-            "<script>\n"
-            'document.addEventListener("DOMContentLoaded", function() {\n'
-            "    const lazyLoadElements = document.querySelectorAll('.lazyload-placeholder');\n"
-            "\n"
-            '    if ("IntersectionObserver" in window) {\n'
-            f"        let rootMargin = '{ROOT_MARGIN_LARGE_DESKTOP}';\n"
-            "        let threshold = 0.5;\n"
-            f"        if (window.innerWidth <= '{VIEWPORT_MOBILE}') {{  // Mobile devices\n"
-            f"            rootMargin = '{ROOT_MARGIN_MOBILE}';\n"
-            "            threshold = 0.1;\n"
-            f"        }} else if (window.innerWidth <= '{VIEWPORT_TABLET}') {{  // Tablets\n"
-            f"            rootMargin = '{ROOT_MARGIN_TABLET}';\n"
-            "            threshold = 0.3;\n"
-            f"        }} else if (window.innerWidth <= '{VIEWPORT_SMALL_DESKTOP}') {{  // Small desktops\n"
-            f"            rootMargin = '{ROOT_MARGIN_SMALL_DESKTOP}';\n"
-            "            threshold = 0.4;\n"
-            "        } else {  // Large desktops\n"
-            f"            rootMargin = '{ROOT_MARGIN_LARGE_DESKTOP}';\n"
-            "            threshold = 0.5;\n"
-            "        }\n"
-            "        let observer = new IntersectionObserver((entries, observer) => {\n"
-            "            entries.forEach(entry => {\n"
-            "                if (entry.isIntersecting) {\n"
-            "                    let placeholder = entry.target;\n"
-            "                    let contentId = placeholder.dataset.content;\n"
-            "                    let file_list_html = '';\n"
-            "                    switch(contentId) {\n"
+    try:  # Try to write the lazy loading script to the file
+        f.write(  # Write the lazy loading script to the file
+            "<script>\n"  # Start the script tag
+            'document.addEventListener("DOMContentLoaded", function() {\n'  # Add an event listener for the DOM content
+            "    const lazyLoadElements = document.querySelectorAll('.lazyload-placeholder');\n"  # Select all elements with the lazyload class
+            "\n"  # Add a newline
+            '    if ("IntersectionObserver" in window) {\n'  # Check if the IntersectionObserver API is supported
+            "        let rootMargin = '0px 0px 400px 0px';\n"  # Set the root margin for the observer
+            "        let threshold = 0.5;\n"  # Set the threshold for the observer
+            "        if (window.innerWidth <= 768) {  // Mobile devices\n"  # Check if the window width is less than or equal to 768 pixels
+            "            rootMargin = '0px 0px 100px 0px';\n"  # Set the root margin for mobile devices
+            "            threshold = 0.1;\n"  # Set the threshold for mobile devices
+            "        } else if (window.innerWidth <= 1024) {  // Tablets\n"  # Check if the window width is less than or equal to 1024 pixels
+            "            rootMargin = '0px 0px 200px 0px';\n"  # Set the root margin for tablets
+            "            threshold = 0.3;\n"  # Set the threshold for tablets
+            "        } else if (window.innerWidth <= 1440) {  // Small desktops\n"  # Check if the window width is less than or equal to 1440 pixels
+            "            rootMargin = '0px 0px 300px 0px';\n"  # Set the root margin for small desktops
+            "            threshold = 0.4;\n"  # Set the threshold for small desktops
+            "        } else {  // Large desktops\n"  # Check if the window width is greater than 1440 pixels
+            "            rootMargin = '0px 0px 400px 0px';\n"  # Set the root margin for large desktops
+            "            threshold = 0.5;\n"  # Set the threshold for large desktops
+            "        }\n"  # End the conditional statement
+            "        let observer = new IntersectionObserver((entries, observer) => {\n"  # Create a new IntersectionObserver
+            "            entries.forEach(entry => {\n"  # Iterate over the entries
+            "                if (entry.isIntersecting) {\n"  # Check if the entry is intersecting
+            "                    let placeholder = entry.target;\n"  # Get the placeholder element
+            "                    let contentId = placeholder.dataset.content;\n"  # Get the content ID from the placeholder
+            "                    let file_list_html = '';\n"  # Initialize the file list HTML
+            "                    switch(contentId) {\n"  # Start a switch statement
         )
-        for i in range(len(file_list_chunks)):
-            f.write(f"                        case 'file-list-{i+1}':\n" f"                            file_list_html = `<ul>{file_list_chunks[i]}</ul>`;\n" f"                            break;\n")
+        for i in range(len(file_list_chunks)):  # Iterate over the file list chunks
+            f.write(f"                        case 'file-list-{i+1}':\n")  # Add a case for each file list chunk
+            f.write(  # Write the file list HTML for the chunk
+                f"                            file_list_html = `<ul>{file_list_chunks[i]}</ul>`;\n"  # Add the file list HTML
+            )
+            f.write(f"                            break;\n")  # Break out of the switch statement
+        f.write(  # Write the rest of the lazy loading script
+            "                    }\n"  # End the switch statement
+            "                    placeholder.innerHTML = file_list_html;\n"  # Set the inner HTML of the placeholder
+            "                    observer.unobserve(placeholder);\n"  # Stop observing the placeholder
+            "                    console.log(`Loaded content for ${contentId}`);\n"  # Log the loaded content
+            "                }\n"  # End the conditional statement
+            "            });\n"  # End the forEach loop
+            "        }, { rootMargin: rootMargin, threshold: threshold });\n"  # Set the root margin and threshold for the observer
+            "\n"  # Add a newline
+            "        lazyLoadElements.forEach(element => {\n"  # Iterate over the lazy load elements
+            "            element.style.marginTop = '-17px';\n"  # Set the top margin for the element
+            "            observer.observe(element);\n"  # Observe the element
+            "        });\n"  # End the forEach loop
+            "    } else {\n"  # If the IntersectionObserver API is not supported
+            "        lazyLoadElements.forEach(placeholder => {\n"  # Iterate over the lazy load elements
+            "            let contentId = placeholder.dataset.content;\n"  # Get the content ID from the placeholder
+            "            let file_list_html = '';\n"  # Initialize the file list HTML
+            "            switch(contentId) {\n"  # Start a switch statement
+        )  # Write the rest of the lazy loading script
+        for i in range(len(file_list_chunks)):  # Iterate over the file list chunks
+            f.write(f"                case 'file-list-{i+1}':\n")  # Add a case for each file list chunk
+            f.write(  # Write the file list HTML for the chunk
+                f"                    file_list_html = `<ul>{file_list_chunks[i]}</ul>`;\n"  # Add the file list HTML
+            )
+            f.write(f"                    break;\n")  # Break out of the switch statement
         f.write(
-            "                    }\n"
-            "                    placeholder.innerHTML = file_list_html;\n"
-            "                    observer.unobserve(placeholder);\n"
-            "                    console.log(`Loaded content for ${contentId}`);\n"
-            "                }\n"
-            "            });\n"
-            "        }, { rootMargin: rootMargin, threshold: threshold });\n"
-            "\n"
-            "        lazyLoadElements.forEach(element => {\n"
-            "            element.style.marginTop = '-17px';\n"
-            "            observer.observe(element);\n"
-            "        });\n"
-            "    } else {\n"
-            "        lazyLoadElements.forEach(placeholder => {\n"
-            "            let contentId = placeholder.dataset.content;\n"
-            "            let file_list_html = '';\n"
-            "            switch(contentId) {\n"
+            "            }\n"  # End the switch statement
+            "            placeholder.innerHTML = file_list_html;\n"  # Set the inner HTML of the placeholder
+            "        });\n"  # End the forEach loop
+            "    }\n"  # End the conditional statement
+            "});\n"  # End the event listener
+            "</script>\n"  # End the script tag
         )
-        for i in range(len(file_list_chunks)):
-            f.write(f"                case 'file-list-{i+1}':\n" f"                    file_list_html = `<ul>{file_list_chunks[i]}</ul>`;\n" f"                    break;\n")
-        f.write("            }\n" "            placeholder.innerHTML = file_list_html;\n" "        });\n" "    }\n" "});\n" "</script>\n")
-    except Exception as e:
-        # Log an error message if writing to the file fails
-        logging.error(f"\033[1;31mError writing lazyload script: {e}\033[0m")
+    except Exception as e:  # Handle errors
+        logging.error(f"\033[1;31mError writing lazyload script: {e}\033[0m")  # Log the error
 
 
 if __name__ == "__main__":  # Main entry point of the script
@@ -847,28 +1141,28 @@ if __name__ == "__main__":  # Main entry point of the script
     parser.add_argument(  # Add an argument for the directory
         "--directory",
         default=ROOT_DIRECTORY,  # Set the default directory
-        metavar="DIRECTORY",  # Set the metavar for the argument
+        metavar='"DIRECTORY"',  # Set the metavar for the argument
         # Set the help message
         help="\033[1;34mRoot directory of the repository to generate the file list for. Default is the current directory.\033[0m",
     )
     parser.add_argument(  # Add an argument for the repository URL
         "--repo-url",
         default=DEFAULT_GIT_REPO_URL,  # Set the default repository URL
-        metavar="REPO_URL",  # Set the metavar for the argument
+        metavar='"REPO_URL"',  # Set the metavar for the argument
         # Set the help message
         help="\033[1;36mGitHub repository URL to use for generating file links. Default is determined by the Git configuration.\033[0m",
     )
     parser.add_argument(  # Add an argument for the fallback repository URL
         "--fallback-repo-url",
         default=FALLBACK_REPO_URL,  # Set the default fallback repository URL
-        metavar="FALLBACK_REPO_URL",  # Set the metavar for the argument
+        metavar='"FALLBACK_REPO_URL"',  # Set the metavar for the argument
         # Set the help message
         help="\033[1;35mFallback GitHub repository URL to use if the default URL cannot be determined.\033[0m",
     )
     parser.add_argument(  # Add an argument for the output file
         "--output-file",
         default=DEFAULT_OUTPUT_FILE,  # Set the default output file
-        metavar="OUTPUT_FILE.html",  # Set the metavar for the argument
+        metavar='"OUTPUT_FILE.html"',  # Set the metavar for the argument
         # Set the help message
         help="\033[1;33mName of the output HTML file to save the generated file list. Default is 'file_list.html'.\033[0m",
     )
@@ -927,7 +1221,7 @@ if __name__ == "__main__":  # Main entry point of the script
     parser.add_argument(  # Add an argument for the threshold for excluding black colors
         "--exclude-blacks-threshold",
         type=str,  # Accept a string value
-        metavar="#222222",  # Set the metavar for the argument
+        metavar='"#222222"',  # Set the metavar for the argument
         default=EXCLUDE_BLACKS_THRESHOLD,  # Set the default value
         # Set the help message
         help="\033[1;31mThreshold for excluding black colors. Any color below this threshold on the color chart will be excluded (e.g., #222222).\033[0m",
@@ -1098,19 +1392,23 @@ if __name__ == "__main__":  # Main entry point of the script
     if not args.repo_url:  # Check if the repo_url argument is not provided
         args.repo_url = args.fallback_repo_url  # Set repo_url to fallback_repo_url if not provided
 
-    if args.color_range:  # Check if the color_range argument is provided
-        try:
-            if not all(  # Validate each color in the color_range
-                color.startswith("#")  # Check if the color starts with '#'
-                # Check if the color length is 7 characters
-                and len(color) == 7 and all(c in "0123456789abcdefABCDEF" for c in color[1:])  # Check if all characters are valid hex digits
-                # Iterate over each color in the color_range
-                for color in args.color_range
+    if args.color_range:  # Check if the color range argument is provided
+        try:  # Try to sort the color range
+            if not all(  # Check if all color codes are valid
+                color.startswith("#")  # Check if the color code starts with a hash symbol
+                and len(color) == 7  # Check if the color code has the correct length
+                and all(
+                    c in "0123456789abcdefABCDEF" for c in color[1:]
+                )  # Check if all characters are valid hex characters
+                for color in args.color_range  # Iterate over the color range
             ):
-                raise ValueError("\033[1;31mInvalid color code(s). Color codes must be in hex format (#RRGGBB).\033[0m")  # Raise a ValueError if any color is invalid
-        except ValueError as e:  # Handle the ValueError
+                raise ValueError(  # Raise a ValueError if the color codes are invalid
+                    "\033[1;31mInvalid color code(s). Color codes must be in hex format (#RRGGBB).\033[0m"  # Log an error message
+                )
+            args.color_range = sort_color_range(args.color_range)  # Sort the color range
+        except ValueError as e:  # Handle errors
             logging.error(e)  # Log the error
-            exit(1)  # Exit the script with status code 1
+            exit(1)  # Exit the script with an error code
 
     # Only override the default value if the argument is provided
     LOG_LEVEL_SETTING = args.log_level.upper()  # Set the log level
@@ -1120,7 +1418,7 @@ if __name__ == "__main__":  # Main entry point of the script
     FALLBACK_REPO_URL = args.fallback_repo_url
     DEFAULT_OUTPUT_FILE = args.output_file  # Set the default output file
     DEFAULT_COLOR_SOURCE = args.color_source  # Set the default color source
-    DEFAULT_COLOR_RANGE = args.color_range  # Set the default color range
+    DEFAULT_COLOR_RANGE = args.color_range  # Set the default color range sorted from lowest to highest
     EXCLUDE_DARK_COLORS = args.exclude_dark_colors  # Set the exclusion of dark colors
     EXCLUDE_BRIGHT_COLORS = args.exclude_bright_colors  # Set the exclusion of bright colors
     EXCLUDE_BLACKS = args.exclude_blacks  # Set the exclusion of black colors
@@ -1143,7 +1441,9 @@ if __name__ == "__main__":  # Main entry point of the script
     ROOT_MARGIN_MOBILE = args.root_margin_mobile  # Set the root margin for mobile devices
 
     # Set up logging
-    LOG_LEVEL = (os.getenv("LOG_LEVEL") or LOG_LEVEL_SETTING).upper()  # Get the log level from the environment variable or use the default setting
+    LOG_LEVEL = (  # Set the log level
+        os.getenv("LOG_LEVEL") or LOG_LEVEL_SETTING
+    ).upper()  # Get the log level from the environment variable or use the default setting
     logging.basicConfig(
         level=getattr(logging, LOG_LEVEL_SETTING),  # Set the logging level
         # Set the logging format
@@ -1157,9 +1457,13 @@ if __name__ == "__main__":  # Main entry point of the script
         f"\033[1;32mStarting script with arguments:\033[0m {args}",
     )
     logging.info(f"\033[1;32mFILE_CATEGORIES is set to:\033[0m {FILE_CATEGORIES}")  # Log the file categories
-    logging.info(f"\033[1;32mOVERWRITE_FILE_CATEGORIES is set to:\033[0m {args.overwrite_file_categories}")  # Log the overwrite file categories argument
+    logging.info(
+        f"\033[1;32mOVERWRITE_FILE_CATEGORIES is set to:\033[0m {args.overwrite_file_categories}"
+    )  # Log the overwrite file categories argument
     logging.info(f"\033[1;32mIGNORE_LIST is set to:\033[0m {IGNORE_LIST}")  # Log the ignore list
-    logging.info(f"\033[1;32mOVERWRITE_IGNORE_LIST is set to:\033[0m {args.overwrite_ignore_list}")  # Log the overwrite ignore list argument
+    logging.info(
+        f"\033[1;32mOVERWRITE_IGNORE_LIST is set to:\033[0m {args.overwrite_ignore_list}"
+    )  # Log the overwrite ignore list argument
     logging.info(f"\033[1;94mLOG_LEVEL is set to:\033[0m {args.log_level}")  # Log the log level
     logging.info(
         # Log the repository root header
@@ -1190,19 +1494,27 @@ if __name__ == "__main__":  # Main entry point of the script
         # Log the bright color luminance threshold
         f"\033[1;31mBRIGHT_COLOR_LUMINANCE_THRESHOLD is set to:\033[0m {args.bright_color_luminance_threshold}"
     )
-    logging.info(f"\033[1;35mEXCLUDE_BLACKS is set to:\033[0m {args.exclude_blacks}")  # Log the exclusion of black colors
+    logging.info(
+        f"\033[1;35mEXCLUDE_BLACKS is set to:\033[0m {args.exclude_blacks}"
+    )  # Log the exclusion of black colors
     logging.info(
         # Log the threshold for excluding black colors
         f"\033[1;35mEXCLUDE_BLACKS_THRESHOLD is set to:\033[0m {args.exclude_blacks_threshold}"
     )
-    logging.info(f"\033[1;35mMAX_ATTEMPTS is set to:\033[0m {args.max_attempts}")  # Log the maximum number of attempts to generate a valid color
+    logging.info(
+        f"\033[1;35mMAX_ATTEMPTS is set to:\033[0m {args.max_attempts}"
+    )  # Log the maximum number of attempts to generate a valid color
     logging.info(
         # Log the setting for ensuring readable colors
         f"\033[1;93mENSURE_READABLE_COLORS is set to:\033[0m {args.ensure_readable_colors}"
     )
     logging.info(f"\033[1;34mCHUNK_SIZE is set to:\033[0m {args.chunk_size}")  # Log the chunk size for lazy loading
-    logging.info(f"\033[1;34mVIEWPORT_MOBILE is set to:\033[0m {args.viewport_mobile}")  # Log the viewport size for mobile devices
-    logging.info(f"\033[1;34mVIEWPORT_TABLET is set to:\033[0m {args.viewport_tablet}")  # Log the viewport size for tablets
+    logging.info(
+        f"\033[1;34mVIEWPORT_MOBILE is set to:\033[0m {args.viewport_mobile}"
+    )  # Log the viewport size for mobile devices
+    logging.info(
+        f"\033[1;34mVIEWPORT_TABLET is set to:\033[0m {args.viewport_tablet}"
+    )  # Log the viewport size for tablets
     logging.info(
         # Log the viewport size for small desktops
         f"\033[1;34mVIEWPORT_SMALL_DESKTOP is set to:\033[0m {args.viewport_small_desktop}"
@@ -1235,4 +1547,6 @@ if __name__ == "__main__":  # Main entry point of the script
 
     save_file_list(file_list_html, args.output_file)  # Save the file list to an HTML file
 
-    logging.log(getattr(logging, LOG_LEVEL), "\033[1;32mScript finished.\033[0m")  # Log the completion of the script
+    logging.log(
+        getattr(logging, LOG_LEVEL_SETTING), "\033[1;32mScript finished.\033[0m"
+    )  # Log the completion of the script
