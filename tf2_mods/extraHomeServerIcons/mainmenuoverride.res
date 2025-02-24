@@ -174,41 +174,9 @@
 			"tall"		"f0"
 		}
 
-		"if_halloween_0"
-		{
-			"image"		"../console/title_team_halloween2011_widescreen"
-		}
-		"if_halloween_1"
-		{
-			"image"		"../console/title_team_halloween2012_widescreen"
-		}
-		"if_halloween_2"
-		{
-			"image"		"../console/title_team_halloween2013_widescreen"
-		}
-		"if_halloween_3"
-		{
-			"image"		"../console/title_team_halloween2014_widescreen"
-		}
-		"if_halloween_4"
-		{
-			"image"		"../console/title_team_halloween2015_widescreen"
-		}
-		"if_halloween_5"
-		{
-			"image"		"../console/title_scream_fortress_2017_widescreen"
-		}
 		"if_fullmoon"
 		{
 			"image"		"../console/title_fullmoon_widescreen"
-		}
-		"if_christmas_0"
-		{
-			"image"		"../console/background_xmas2020_widescreen"
-		}
-		"if_christmas_1"
-		{
-			"image"		"../console/background_xmas2023_widescreen"
 		}
 	}
 
@@ -1311,7 +1279,7 @@
 		"paintbackground"		"1"
 		"border"				"CyanBorder"
 		"bgcolor_override"		"TransparentBlack"
-			"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"2"
 
 		"Notifications_CloseButton"
 		{
@@ -1525,7 +1493,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
 		"font"				"HudFontSmallest"
-		"labelText"			"v2024.1011"
+		"labelText"			"v2025.0220"
 		"xpos"				"rs1-5"
 		"ypos"				"r13"
 		"zpos"				"1"
@@ -2077,7 +2045,7 @@
 		"tall"			"20"
 		"visible"		"1"
 
-		"pin_to_sibling"			"HomeServerButton6"
+		"pin_to_sibling"			"HomeServerButton"
 		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
