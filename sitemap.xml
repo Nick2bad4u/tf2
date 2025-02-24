@@ -30,19 +30,23 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/README.md</loc>
-<lastmod>2025-02-15T19:14:16-05:00</lastmod>
+<lastmod>2025-02-21T01:37:59+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/_config.yml</loc>
-<lastmod>2025-02-15T10:42:50-05:00</lastmod>
+<lastmod>2025-02-19T12:28:41-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/file_list.html</loc>
-<lastmod>2025-02-15T19:14:16-05:00</lastmod>
+<lastmod>2025-02-19T19:26:36-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/file_list.md</loc>
+<lastmod>2025-02-21T01:37:59+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/sitemap.xml</loc>
-<lastmod>2025-02-10T16:22:02+00:00</lastmod>
+<lastmod>2025-02-16T01:19:37+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/dependabot.yml</loc>
@@ -150,7 +154,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/cfg/motd_entries.txt</loc>
-<lastmod>2025-02-15T10:40:52-05:00</lastmod>
+<lastmod>2025-02-20T00:43:32-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/cfg/motd_text_default.txt</loc>
@@ -206,43 +210,47 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/ActionLint.yml</loc>
-<lastmod>2025-02-13T22:00:39+00:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/Bandit.yml</loc>
-<lastmod>2025-02-10T11:11:09-05:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/black-formatter.yml</loc>
-<lastmod>2025-02-10T11:11:09-05:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/codeql.yml</loc>
-<lastmod>2025-02-10T16:29:10+00:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/defender.yml</loc>
-<lastmod>2025-02-10T11:11:09-05:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/dependency-review.yml</loc>
-<lastmod>2025-02-10T14:18:40-05:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/devskim.yml</loc>
-<lastmod>2025-02-10T11:11:09-05:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/.github/workflows/generate-file-list.yml</loc>
+<lastmod>2025-02-18T10:32:30-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/greetings.yml</loc>
-<lastmod>2025-02-10T11:11:09-05:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/label.yml</loc>
-<lastmod>2025-02-10T11:11:09-05:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/ossar.yml</loc>
-<lastmod>2025-02-10T11:11:09-05:00</lastmod>
+<lastmod>2025-02-19T18:45:47-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/osv-scanner.yml</loc>
@@ -250,31 +258,27 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/scorecards.yml</loc>
-<lastmod>2025-02-10T11:11:09-05:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/semgrep.yml</loc>
-<lastmod>2025-02-10T11:11:09-05:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/sitemap.yml</loc>
-<lastmod>2025-02-15T10:40:52-05:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/sobelow.yml</loc>
-<lastmod>2025-02-10T11:11:09-05:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/stale.yml</loc>
-<lastmod>2025-02-10T11:11:09-05:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/static.yml</loc>
-<lastmod>2025-02-10T11:11:09-05:00</lastmod>
-</url>
-<url>
-<loc>https://tf2.typpi.online/custom/rayshud-master/README.md</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-17T21:54:12+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/rayshud/README.md</loc>
@@ -285,292 +289,292 @@
 <lastmod>2025-02-10T17:34:40-05:00</lastmod>
 </url>
 <url>
+<loc>https://tf2.typpi.online/tf2_mods/extraDamageColors/extraDamageColorsInstructions.md</loc>
+<lastmod>2025-02-18T17:35:10-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/extraDamageColors/extraDamgeColors.png</loc>
+<lastmod>2025-02-18T17:35:10-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/extraHomeServerIcons/extraHomeServerIcons.png</loc>
+<lastmod>2025-02-18T17:35:10-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/extraHomeServerIcons/extraHomeServerIconsInstructions.md</loc>
+<lastmod>2025-02-18T17:35:10-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Tag.txt</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/typpisAutoexec/autoexecInstructions.md</loc>
+<lastmod>2025-02-18T17:35:10-05:00</lastmod>
+</url>
+<url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_bat.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_bat_fish.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_bat_giftwrap.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_bat_wood.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_bonesaw.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_bottle.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_buff_item.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_builder.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_cannon.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_charged_smg.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_cleaver.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_club.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_compound_bow.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_crossbow.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_fireaxe.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_fists.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_flamethrower.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_flaregun.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_flaregun_revenge.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_grenadelauncher.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_handgun_scout_primary.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_handgun_scout_secondary.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_jar.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_katana.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_knife.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_laser_pointer.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_lunchbox.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_lunchbox_drink.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_mechanical_arm.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_medigun.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_minigun.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_particle_cannon.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_pda_engineer_build.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_pda_engineer_destroy.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_pda_spy.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_pep_brawler_blaster.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_pipebomblauncher.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_pistol.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_pistol_scout.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_raygun.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_revolver.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_robot_arm.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_rocketlauncher.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_rocketlauncher_airstrike.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_rocketlauncher_directhit.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_rocketlauncher_fireball.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_rocketpack.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_sapper.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_scattergun.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_sentry_revenge.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_shotgun_building_rescue.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_shotgun_hwg.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_shotgun_primary.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_shotgun_pyro.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_shotgun_soldier.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_shovel.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_slap.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_smg.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_sniperrifle.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_sniperrifle_classic.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_sniperrifle_decap.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_soda_popper.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_stickbomb.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_sword.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_syringegun_medic.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/crosshairs/scripts/tf_weapon_wrench.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
-</url>
-<url>
-<loc>https://tf2.typpi.online/custom/rayshud-master/resource/closecaption_english.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
-</url>
-<url>
-<loc>https://tf2.typpi.online/custom/rayshud-master/scripts/TF2Crosshairs.png</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
-</url>
-<url>
-<loc>https://tf2.typpi.online/custom/rayshud-master/scripts/chapterbackgrounds.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
-</url>
-<url>
-<loc>https://tf2.typpi.online/custom/rayshud-master/scripts/hudanimations_custom.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
-</url>
-<url>
-<loc>https://tf2.typpi.online/custom/rayshud-master/scripts/hudanimations_hitmarker.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
-</url>
-<url>
-<loc>https://tf2.typpi.online/custom/rayshud-master/scripts/hudanimations_manifest.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/rayshud/resource/closecaption_english.txt</loc>
@@ -597,15 +601,2903 @@
 <lastmod>2025-02-10T17:45:02-05:00</lastmod>
 </url>
 <url>
-<loc>https://tf2.typpi.online/custom/rayshud-master/#customizations/_enabled/readme.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/TF2-HUD-Icons-Font/README.md</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/custom/rayshud/#customizations/_enabled/readme.txt</loc>
 <lastmod>2025-02-10T17:45:02-05:00</lastmod>
 </url>
 <url>
-<loc>https://tf2.typpi.online/custom/rayshud-master/resource/ui/#customizations/README.txt</loc>
-<lastmod>2025-02-10T17:34:40-05:00</lastmod>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Agathodaimon/Agathoda.TXT</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Agathodaimon/Legend.TXT</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Agathodaimon/Register.TXT</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Amarillo_Usaf/Ausaf.doc</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Amarillo_Usaf/Ausaf.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Bebas/About.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Bebas/Lisense.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Bignoodletitling/Big_Noodle_Titling.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Bignoodletitling/Sentinel_Type_Freefont_Eula.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Coney-Island/Ffonts.Net.htm</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Coney-Island/Ffonts.Net.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Coney-Island/Install-a-New-Font.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Coney-Island/Quick_Tips.html</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Coney-Island/Read_Me.pdf</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Ghoulish_Fright_Aoe/Aoeti_Readme.pdf</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Goudy-Text-Mt/Readme.html</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Gregs-Hand/Ffonts.Net.htm</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Gregs-Hand/Ffonts.Net.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Gregs-Hand/Install-a-New-Font.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Gregs-Hand/Quick_Tips.html</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Kirsty/Read-This.html</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Kirsty/Typodermic Desktop Eula 2023.pdf</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Party_Business/Readme.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Preussische_Vi_9/Ofl-Faq.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Preussische_Vi_9/Open Font License.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/all_pan.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/all_pan_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_8mm_camera.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_8mm_camera_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_carnival_mallet.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_carnival_mallet_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_crossing_guard.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_crossing_guard_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_frying_pan_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_frying_pan_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_ham.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_ham_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_picket.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_picket_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_prinny_knife.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_prinny_knife_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_rr_crossing_sign.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_rr_crossing_sign_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_saxxy.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_saxxy_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_skullbat.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_skullbat_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_tw_eagle.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/All-Class Weapons/c_tw_eagle_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_battleaxe.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_battleaxe_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_caber.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_caber_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_claidheamohmor.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_claidheamohmor_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_claymore.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_claymore_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_claymore_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_claymore_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_claymore_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_claymore_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_demo_cannon.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_demo_cannon_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_demo_sultan_sword.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_demo_sultan_sword_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_golfclub.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_golfclub_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_grenadelauncher_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_grenadelauncher_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_headtaker.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_headtaker_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_kingmaker_sticky.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_kingmaker_sticky_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_lochnload.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_lochnload_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_persian_shield.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_persian_shield_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_quadball.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_quadball_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_scotland_shard.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_scotland_shard_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_sticky_jumper.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_sticky_jumper_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_stickybomb_launcher_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_stickybomb_launcher_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_targe.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_targe_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_targe_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_targe_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_wheel_shield.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/c_wheel_shield_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/demo_booties.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/demo_booties_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_e_stickybomb.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_e_stickybomb_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_e_stickybomb_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_e_stickybomb_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_h_stickybomb.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_h_stickybomb_blood.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_h_stickybomb_blood_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_h_stickybomb_diamond.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_h_stickybomb_diamond_black.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_h_stickybomb_diamond_black_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_h_stickybomb_diamond_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_h_stickybomb_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_h_stickybomb_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_h_stickybomb_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_h_stickybomb_rust.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/fob_h_stickybomb_rust_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/pegleg.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/pegleg_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/rum_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/w_bottle.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/w_bottle_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/w_grenadelauncher.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/w_grenadelauncher_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/w_grenadelauncher_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/w_grenadelauncher_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/w_stickybomb_defender.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/w_stickybomb_defender_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/w_stickybomb_launcher.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/w_stickybomb_launcher_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/w_stickybomb_launcher_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Demoman Weapons/w_stickybomb_launcher_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_dex_arm.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_dex_arm_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_dex_shotgun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_dex_shotgun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_drg_pomson.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_drg_pomson_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_drg_wrenchmotron.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_drg_wrenchmotron_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_frontierjustice.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_frontierjustice_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_frontierjustice_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_frontierjustice_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_frontierjustice_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_frontierjustice_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_invasion_wrangler.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_invasion_wrangler_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_jag.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_jag_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_spikewrench.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_spikewrench_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_tele_shotgun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_tele_shotgun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_wrangler.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_wrangler_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_wrangler_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_wrangler_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_wrench_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/c_wrench_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_e_wrench.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_e_wrench_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_e_wrench_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_e_wrench_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_h_wrench.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_h_wrench_blood.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_h_wrench_blood_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_h_wrench_diamond.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_h_wrench_diamond_black.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_h_wrench_diamond_black_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_h_wrench_diamond_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_h_wrench_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_h_wrench_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_h_wrench_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_h_wrench_rust.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/fob_h_wrench_rust_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/gold_wrench.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/gold_wrench_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/gunslinger.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/gunslinger_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/w_builder.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/w_builder_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/w_pda_engineer.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/w_pda_engineer_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/w_toolbox.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/w_toolbox_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/w_wrench.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/w_wrench_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/w_wrench_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Engineer Weapons/w_wrench_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_banana.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_banana_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_bear_claw.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_bear_claw_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_boxing_gloves.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_boxing_gloves_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_boxing_gloves_urgency.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_boxing_gloves_urgency_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_boxing_gloves_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_boxing_gloves_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_breadmonster_gloves.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_breadmonster_gloves_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_buffalo_steak.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_buffalo_steak_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_canton.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_canton_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_chocolate.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_chocolate_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_eviction_notice.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_eviction_notice_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_fishcake.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_fishcake_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_fists_of_steel.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_fists_of_steel_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_gatling_gun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_gatling_gun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_iron_curtain.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_iron_curtain_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_minigun_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_minigun_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_robo_sandwich.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_robo_sandwich_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_russian_riot.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_russian_riot_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_sandwich.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_sandwich_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_sandwich_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_sandwich_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_sr3_punch.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_sr3_punch_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_tomislav.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_tomislav_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_tomislav_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_tomislav_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_w_ludmila.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_w_ludmila_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_xms_gloves.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/c_xms_gloves_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_e_minigun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_e_minigun_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_e_minigun_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_e_minigun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_h_minigun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_h_minigun_blood.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_h_minigun_blood_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_h_minigun_diamond.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_h_minigun_diamond_black.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_h_minigun_diamond_black_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_h_minigun_diamond_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_h_minigun_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_h_minigun_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_h_minigun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_h_minigun_rust.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/fob_h_minigun_rust_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/v_fist_heavy.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/v_fist_heavy_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/w_minigun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/w_minigun_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/w_minigun_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Heavy Weapons/w_minigun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_amputator.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_amputator_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_bonesaw.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_bonesaw_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_bonesaw_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_bonesaw_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_crusaders_crossbow.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_crusaders_crossbow_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_crusaders_crossbow_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_crusaders_crossbow_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_hippocrates_bust.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_hippocrates_bust_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_leechgun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_leechgun_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_leechgun_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_leechgun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_medigun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_medigun_defense.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_medigun_defense_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_medigun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_medigun_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_medigun_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_overhealer.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_overhealer_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_proto_medigun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_proto_medigun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_proto_syringegun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_proto_syringegun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_syringegun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_uberneedle.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_uberneedle_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_ubersaw.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_ubersaw_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_ubersaw_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/c_ubersaw_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_e_medigun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_e_medigun_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_e_medigun_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_e_medigun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_h_medigun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_h_medigun_blood.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_h_medigun_blood_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_h_medigun_diamond.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_h_medigun_diamond_black.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_h_medigun_diamond_black_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_h_medigun_diamond_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_h_medigun_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_h_medigun_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_h_medigun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_h_medigun_rust.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/fob_h_medigun_rust_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/w_bonesaw.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/w_bonesaw_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/w_medigun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/w_medigun_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/w_medigun_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/w_medigun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/w_medigun_overhealer.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/w_medigun_overhealer_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/w_syringegun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Medic Weapons/w_syringegun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_ai_flamethrower.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_ai_flamethrower_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_axtinguisher_pyro.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_axtinguisher_pyro_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_axtinguisher_pyro_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_axtinguisher_pyro_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_back_scratcher.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_back_scratcher_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_backburner.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_backburner_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_backburner_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_backburner_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_degreaser.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_degreaser_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_detonator.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_detonator_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_drg_manmelter.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_drg_manmelter_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_drg_phlogistinator.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_drg_phlogistinator_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_drg_thirddegree.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_drg_thirddegree_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_fireaxe_pyro.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_fireaxe_pyro_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_fireaxe_pyro_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_fireaxe_pyro_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_flameball.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_flameball_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_flamethrower.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_flamethrower_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_flamethrower_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_flamethrower_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_flamethrower_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_flamethrower_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_flaregun_pyro.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_flaregun_pyro_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_gascan.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_gascan_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_lollichop.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_lollichop_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_mailbox.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_mailbox_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_powerjack.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_powerjack_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_rainblower.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_rainblower_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_rfa_hammer.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_rfa_hammer_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_rift_fire_axe.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_rift_fire_axe_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_rocketpack.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_rocketpack_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_scorch_shot.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_scorch_shot_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_sd_neonsign.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_sd_neonsign_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_sledgehammer.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_sledgehammer_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_xms_flaregun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/c_xms_flaregun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_e_flamethrower.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_e_flamethrower_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_e_flamethrower_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_e_flamethrower_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_h_flamethrower.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_h_flamethrower_blood.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_h_flamethrower_blood_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_h_flamethrower_diamond.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_h_flamethrower_diamond_black.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_h_flamethrower_diamond_black_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_h_flamethrower_diamond_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_h_flamethrower_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_h_flamethrower_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_h_flamethrower_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_h_flamethrower_rust.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/fob_h_flamethrower_rust_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/w_fireaxe.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/w_fireaxe_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/w_flamethrower.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/w_flamethrower_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/w_slapping_glove.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Pyro Weapons/w_slapping_glove_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_bat.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_bat_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_bat_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_bat_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_bonk_bat.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_bonk_bat_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_boston_basher.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_boston_basher_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_breadmonster_milk.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_breadmonster_milk_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_candy_cane.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_candy_cane_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_critcola.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_critcola_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_double_barrel.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_double_barrel_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_double_barrel_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_double_barrel_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_energy_drink.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_energy_drink_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_holymackerel.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_holymackerel_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_holymackerel_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_holymackerel_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_invasion_bat.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_invasion_bat_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_madmilk.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_madmilk_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_pep_pistol.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_pep_pistol_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_pep_scattergun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_pep_scattergun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_rift_fire_mace.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_rift_fire_mace_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_scatterdrum.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_scatterdrum_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_scattergun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_scattergun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_scattergun_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_scattergun_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_scout_sword.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_scout_sword_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_sd_cleaver.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_sd_cleaver_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_shogun_warfan.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_shogun_warfan_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_shortstop.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_shortstop_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_soda_popper.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_soda_popper_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_unarmed_combat.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_unarmed_combat_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_winger_pistol.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_winger_pistol_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_wooden_bat.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_wooden_bat_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_xms_double_barrel.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_xms_double_barrel_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_xms_energy_drink.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_xms_energy_drink_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_xms_giftwrap.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/c_xms_giftwrap_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_e_scattergun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_e_scattergun_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_e_scattergun_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_e_scattergun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_h_scattergun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_h_scattergun_blood.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_h_scattergun_blood_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_h_scattergun_diamond.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_h_scattergun_diamond_black.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_h_scattergun_diamond_black_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_h_scattergun_diamond_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_h_scattergun_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_h_scattergun_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_h_scattergun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_h_scattergun_rust.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/fob_h_scattergun_rust_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/w_bat.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/w_bat_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/w_scattergun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/w_scattergun_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/w_scattergun_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Scout Weapons/w_scattergun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_invasion_pistol.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_invasion_pistol_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_paintrain.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_paintrain_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_paratrooper_pack.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_paratrooper_pack_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_pistol.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_pistol_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_reserve_shooter.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_reserve_shooter_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_shogun_katana.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_shogun_katana_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_shotgun_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_shotgun_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_trenchgun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_trenchgun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_ttg_max_gun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/c_ttg_max_gun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/w_pistol.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/w_pistol_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/w_shotgun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Shared Weapons/w_shotgun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_bazaar_sniper.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_bazaar_sniper_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_bow.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_bow_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_bow_thief.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_bow_thief_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_bow_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_bow_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_breadmonster.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_breadmonster_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_croc_knife.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_croc_knife_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_csgo_awp.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_csgo_awp_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_dex_sniperrifle.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_dex_sniperrifle_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_invasion_sniperrifle.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_invasion_sniperrifle_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_pro_rifle.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_pro_rifle_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_pro_smg.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_pro_smg_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_scimitar.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_scimitar_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_smg_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_smg_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_smg_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_smg_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_sniperrifle_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_sniperrifle_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_sydney_sleeper.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_sydney_sleeper_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_tfc_sniperrifle.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_tfc_sniperrifle_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_wood_machete.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_wood_machete_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_xms_urinejar.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/c_xms_urinejar_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/croc_shield.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/croc_shield_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_e_sniperrifle.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_e_sniperrifle_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_e_sniperrifle_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_e_sniperrifle_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_h_sniperrifle.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_h_sniperrifle_blood.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_h_sniperrifle_blood_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_h_sniperrifle_diamond.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_h_sniperrifle_diamond_black.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_h_sniperrifle_diamond_black_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_h_sniperrifle_diamond_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_h_sniperrifle_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_h_sniperrifle_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_h_sniperrifle_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_h_sniperrifle_rust.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/fob_h_sniperrifle_rust_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/urinejar.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/urinejar_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/w_machete.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/w_machete_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/w_smg.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/w_smg_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/w_sniperrifle.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/w_sniperrifle_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/w_sniperrifle_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/w_sniperrifle_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/xms_sniper_commandobackpack.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Sniper Weapons/xms_sniper_commandobackpack_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_atom_launcher.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_atom_launcher_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_battalion_buffpack.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_battalion_buffpack_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_bet_rocketlauncher.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_bet_rocketlauncher_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_blackbox.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_blackbox_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_blackbox_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_blackbox_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_blackbox_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_blackbox_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_buffpack.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_buffpack_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_buffpack_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_buffpack_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_directhit.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_directhit_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_drg_cowmangler.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_drg_cowmangler_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_drg_righteousbison.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_drg_righteousbison_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_dumpster_device.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_dumpster_device_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_liberty_launcher.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_liberty_launcher_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_market_gardener.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_market_gardener_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_pickaxe.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_pickaxe_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_pickaxe_s2.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_pickaxe_s2_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_riding_crop.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_riding_crop_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_rocketboots_soldier.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_rocketboots_soldier_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_rocketjumper.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_rocketjumper_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_rocketlauncher_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_rocketlauncher_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_shogun_warpack.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/c_shogun_warpack_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_e_rocketlauncher.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_e_rocketlauncher_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_e_rocketlauncher_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_e_rocketlauncher_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_h_rocketlauncher.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_h_rocketlauncher_blood.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_h_rocketlauncher_blood_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_h_rocketlauncher_diamond.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_h_rocketlauncher_diamond_black.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_h_rocketlauncher_diamond_black_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_h_rocketlauncher_diamond_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_h_rocketlauncher_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_h_rocketlauncher_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_h_rocketlauncher_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_h_rocketlauncher_rust.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/fob_h_rocketlauncher_rust_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/mantreads.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/mantreads_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/w_rocketlauncher.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/w_rocketlauncher_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/w_rocketlauncher_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/w_rocketlauncher_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/w_shovel.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Soldier Weapons/w_shovel_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_acr_hookblade.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_acr_hookblade_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_ambassador.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_ambassador_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_ambassador_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_ambassador_opt.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_ambassador_opt_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_ambassador_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_ambassador_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_ava_roseknife_v.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_ava_roseknife_v_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_breadmonster_sapper.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_breadmonster_sapper_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_dex_revolver.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_dex_revolver_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_eternal_reward.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_eternal_reward_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_knife_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_knife_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_leather_watch.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_leather_watch_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_letranger.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_letranger_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_p2rec.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_p2rec_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_pocket_watch.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_pocket_watch_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_revolver.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_revolver_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_revolver_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_revolver_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_sapper_xmas.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_sapper_xmas_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_sd_sapper.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_sd_sapper_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_shogun_kunai.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_shogun_kunai_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_snub_nose.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_snub_nose_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_spy_watch.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_spy_watch_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_switchblade.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_switchblade_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_ttg_sam_gun.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_ttg_sam_gun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_ttg_watch.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_ttg_watch_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_voodoo_pin.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_voodoo_pin_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_xms_cold_shoulder.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/c_xms_cold_shoulder_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_e_knife.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_e_knife_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_e_knife_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_e_knife_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_h_knife.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_h_knife_blood.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_h_knife_blood_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_h_knife_diamond.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_h_knife_diamond_black.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_h_knife_diamond_black_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_h_knife_diamond_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_h_knife_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_h_knife_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_h_knife_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_h_knife_rust.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/fob_h_knife_rust_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/v_hm_watch.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/v_hm_watch_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/w_cigarette_case.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/w_cigarette_case_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/w_knife.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/w_knife_gold.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/w_knife_gold_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/w_knife_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/w_revolver.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/w_revolver_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/w_sapper.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Spy Weapons/w_sapper_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Unused/c_bigaxe.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Unused/c_bigaxe_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Unused/flaregun_large.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Unused/flaregun_small.png</loc>
+<lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Amarillo_Usaf/to_reg/About.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Amarillo_Usaf/to_reg/Buyonlin.htm</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Amarillo_Usaf/to_reg/Reginf.doc</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Amarillo_Usaf/to_reg/Reginf.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/TF2-HUD-Icons-Font/custom build/scripts/readme.txt</loc>
+<lastmod>2025-02-18T18:53:18-05:00</lastmod>
 </url>
 </urlset>
