@@ -21,7 +21,7 @@ These instructions detail how to add more custom damage colors to your Team Fort
  "pin_corner_to_sibling" "PIN_TOPRIGHT"
 ```
 
-5. **Set the Command:** Change the `"command"` property to set the appropriate `hud_combattext` values for your new color. The command should look like this:
+1. **Set the Command:** Change the `"command"` property to set the appropriate `hud_combattext` values for your new color. The command should look like this:
 
 ```txt
 "command"       "engine hud_combattext 1;hud_combattext_red [RedValue];hud_combattext_green [GreenValue];hud_combattext_blue [BlueValue]"
@@ -29,11 +29,11 @@ These instructions detail how to add more custom damage colors to your Team Fort
 
 Replace `[RedValue]`, `[GreenValue]`, and `[BlueValue]` with the RGB values for your desired color (0-255).
 
-6. **Adjust Color Overrides:** Modify the `"defaultFgColor_override"`, `"armedFgColor_override"`, and `"depressedFgColor_override"` properties to match the RGB values of your new color. This ensures the button itself displays the correct color.
+1. **Adjust Color Overrides:** Modify the `"defaultFgColor_override"`, `"armedFgColor_override"`, and `"depressedFgColor_override"` properties to match the RGB values of your new color. This ensures the button itself displays the correct color.
 
-7. **Save the File:** Save the modified `tools.res` file.
+2. **Save the File:** Save the modified `tools.res` file.
 
-8. **Test in TF2:** Launch Team Fortress 2 and test your new damage color. You may need to restart the game or reload your HUD for the changes to take effect (`hud_reloadscheme` in console).
+3. **Test in TF2:** Launch Team Fortress 2 and test your new damage color. You may need to restart the game or reload your HUD for the changes to take effect (`hud_reloadscheme` in console).
 
 **Example:**
 
