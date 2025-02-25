@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"SidePanelBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -98,20 +98,20 @@
 		"command"		"jointeam blue"
 		"team"			"3"		// Blue Team
 		"font"			"HudFontMedium"
-		
+
 		"defaultBgColor_override" 	"Blue"
 		"armedBgColor_override"		"BlueSolid"
 		"depressedBgColor_override" "Blue"
 		"selectedBgColor_override" 	"BlueSolid"
-		
+
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"TanLight"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"pin_to_sibling"			"teambutton2"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -138,20 +138,20 @@
 		"command"		"jointeam red"
 		"team"			"4"		// Red Team
 		"font"			"HudFontMedium"
-		
+
 		"defaultBgColor_override" 	"Red"
 		"armedBgColor_override"		"RedSolid"
 		"depressedBgColor_override" "Red"
 		"selectedBgColor_override" 	"RedSolid"
-		
+
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"TanLight"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"pin_to_sibling"			"teambutton2"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
@@ -177,7 +177,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-		"font"			"HudFontMediumSecondary"
+		"font"			"HudFontMediumSmall"
 
 		"defaultBgColor_override" 	"TransparentBlack"
 		"armedBgColor_override"		"HudBlack"
@@ -188,10 +188,10 @@
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"pin_to_sibling"			"SelectTeamLabel"
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
@@ -217,7 +217,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"font"			"HudFontMediumSecondary"
+		"font"			"HudFontMediumSmall"
 
 		"defaultBgColor_override" 	"TransparentBlack"
 		"armedBgColor_override"		"HudBlack"
@@ -228,10 +228,10 @@
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"pin_to_sibling"			"teambutton0"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -272,7 +272,7 @@
 		"brighttext"	"1"
 		"font"			"Cerbetica20"
 		"fgcolor"		"255 255 255 128"
-		
+
 		"pin_to_sibling"		"teambutton0"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -297,7 +297,7 @@
 		"brighttext"	"1"
 		"font"			"Cerbetica20"
 		"fgcolor"		"255 255 255 128"
-		
+
 		"pin_to_sibling"		"teambutton1"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"

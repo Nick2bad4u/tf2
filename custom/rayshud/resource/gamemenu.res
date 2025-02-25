@@ -36,6 +36,12 @@
 		"command"		"engine connect 91.216.250.227:27015"
 		"tooltip"		"Skial 2Fort EU Server"
 	}
+	"HomeServerButton7"
+	{
+		"label"			"2"
+		"command"		"engine connect 91.216.250.15:27015"
+		"tooltip"		"Skial Zombie Escape USA Server"
+	}
 	"AchievementsButton"
 	{
 		"label"			"b"

@@ -43,7 +43,7 @@
 		"scaleImage"		"1"
 	}
 	//--------------------------------------------------------------
-	
+
 	// Player Class Data
 	"HudPlayerClass"
 	{
@@ -57,7 +57,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"PlayerStatusClassImage"
 	{
 		"ControlName"	"CTFClassImage"
@@ -123,7 +123,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fov"				"25"
+		"fov"				"27"
 		"allow_rot"			"1"
 		"render_texture"	"0"
 

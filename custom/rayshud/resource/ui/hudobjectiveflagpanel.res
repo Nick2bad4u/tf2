@@ -45,7 +45,7 @@
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
@@ -79,7 +79,7 @@
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
@@ -124,7 +124,7 @@
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
@@ -162,7 +162,7 @@
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
@@ -200,7 +200,7 @@
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
@@ -239,7 +239,7 @@
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
@@ -313,7 +313,7 @@
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
@@ -348,7 +348,7 @@
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
@@ -393,6 +393,11 @@
 		"if_no_flags"
 		{
 			"visible"	"0"
+		}
+
+		"if_mvm"
+		{
+			"ypos"		"r65"
 		}
 	}
 

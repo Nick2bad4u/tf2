@@ -174,41 +174,9 @@
 			"tall"		"f0"
 		}
 
-		"if_halloween_0"
-		{
-			"image"		"../console/title_team_halloween2011_widescreen"
-		}
-		"if_halloween_1"
-		{
-			"image"		"../console/title_team_halloween2012_widescreen"
-		}
-		"if_halloween_2"
-		{
-			"image"		"../console/title_team_halloween2013_widescreen"
-		}
-		"if_halloween_3"
-		{
-			"image"		"../console/title_team_halloween2014_widescreen"
-		}
-		"if_halloween_4"
-		{
-			"image"		"../console/title_team_halloween2015_widescreen"
-		}
-		"if_halloween_5"
-		{
-			"image"		"../console/title_scream_fortress_2017_widescreen"
-		}
 		"if_fullmoon"
 		{
 			"image"		"../console/title_fullmoon_widescreen"
-		}
-		"if_christmas_0"
-		{
-			"image"		"../console/background_xmas2020_widescreen"
-		}
-		"if_christmas_1"
-		{
-			"image"		"../console/background_xmas2023_widescreen"
 		}
 	}
 
@@ -919,6 +887,46 @@
 		}
 	}
 
+	"HomeServerButton7"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HomeServerButton7"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"			"HomeServerButton6"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"font"				"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"		"ColorCyan"
+		}
+	}
 
 	"MOTD_Panel"
 	{
@@ -1485,7 +1493,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
 		"font"				"HudFontSmallest"
-		"labelText"			"v2024.1011"
+		"labelText"			"v2025.0220"
 		"xpos"				"rs1-5"
 		"ypos"				"r13"
 		"zpos"				"1"
@@ -2037,7 +2045,7 @@
 		"tall"			"20"
 		"visible"		"1"
 
-		"pin_to_sibling"			"HomeServerButton6"
+		"pin_to_sibling"			"HomeServerButton"
 		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 

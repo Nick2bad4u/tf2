@@ -38,7 +38,7 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TanDark"
 		"PaintBackgroundType"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -149,7 +149,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"r105"
 		}
-		
+
 		"ButtonSettings"
 		{
 			"wide"				"19"
@@ -455,7 +455,7 @@
 			"ControlName"	"Slider"
 			"fieldName"		"WearSlider"
 			"xpos"			"8"
-			"ypos"			"70"
+			"ypos"			"60"
 
 			"fixed_item"
 			{
@@ -638,7 +638,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-	
+
 	"raysfox"
 	{
 		"ControlName"	"ImagePanel"
@@ -653,11 +653,11 @@
 		"image"			"replay\thumbnails\raysfox\hmm"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
-		
+
 		"pin_to_sibling"		"PaintkitPreviewContainer"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		
+
 		"consume_mode"
 		{
 			"visible"		"0"

@@ -67,6 +67,16 @@ Scheme
 				"outline"		"1"
 			}
 		}
+		"Cerbetica22"
+		{
+			"1"
+			{
+				"name"			"Cerbetica-Bold"
+				"tall"			"22"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"Cerbetica20"
 		{
 			"1"
@@ -127,7 +137,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		// DEFAULT
 		"Default"
 		{
@@ -445,7 +455,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudFontGiantBold"
 		{
 			"1"
@@ -458,7 +468,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudFontBiggerBold"
 		{
 			"1"
@@ -471,7 +481,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"HudFontBig"
 		{
 			"1"
@@ -484,7 +494,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudFontMediumBig"
 		{
 			"1"
@@ -496,7 +506,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -508,7 +518,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"HudFontMedium"
 		{
 			"1"
@@ -521,7 +531,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"HudFontMediumSecondary"
 		{
 			"1"
@@ -542,7 +552,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudFontMediumBold"
 		{
 			"1"
@@ -554,7 +564,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudFontMediumSmallBold"
 		{
 			"1"
@@ -566,7 +576,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudFontMediumSmall"
 		{
 			"1"
@@ -580,7 +590,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudFontMediumSmallSecondary"
 		{
 			"1"
@@ -594,7 +604,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudFontSmall"
 		{
 			"1"
@@ -607,7 +617,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -619,7 +629,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudFontSmallBold"
 		{
 			"1"
@@ -631,7 +641,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudFontSmallBoldShadow"
 		{
 			"1"
@@ -644,7 +654,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
+
 		"HudFontSmallest"
 		{
 			"1"
@@ -656,7 +666,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudFontSmallestShadow"
 		{
 			"1"
@@ -669,7 +679,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
+
 		"HudFontSmallestBold"
 		{
 			"1"
@@ -2743,12 +2753,12 @@ Scheme
 		}
 		"8"
 		{
-			"font" 	"resource/fonts/Cerbetica.ttf"
+			"font" 	"resource/fonts/cerbetica.ttf"
 			"name" 	"Cerbetica"
 		}
 		"9"
 		{
-			"font" 	"resource/fonts/Cerbetica-Bold.ttf"
+			"font" 	"resource/fonts/cerbetica-bold.ttf"
 			"name" 	"Cerbetica-Bold"
 		}
 		"10"		"resource/linux_fonts/DejaVuSans.ttf"

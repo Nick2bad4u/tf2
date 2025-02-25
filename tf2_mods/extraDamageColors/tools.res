@@ -8,7 +8,7 @@
 		"ypos"				"100"
 		"zpos"				"200"
 		"wide"				"345"
-		"tall"				"230"
+		"tall"				"400"
 		"visible"			"0"
 		"paintbackground"	"1"
 		"paintborder"		"0"

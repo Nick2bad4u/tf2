@@ -16,7 +16,6 @@ repos:
       - id: check-json
       - id: check-xml
       - id: check-toml
-      - id: check-added-large-files
       - id: check-case-conflict
       - id: check-illegal-windows-names
       - id: check-merge-conflict

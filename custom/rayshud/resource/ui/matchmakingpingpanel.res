@@ -46,7 +46,7 @@
 		"textAlignment"	"west"
 		"font"			"HudFontMediumBold"
 		"fgcolor_override"	"TanDark"
-		
+
 		"mouseinputenabled"	"0"
 	}
 
@@ -66,7 +66,7 @@
 		"smallcheckimage"	"1"
 		"fgcolor_override"	"TanDark"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -108,7 +108,7 @@
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 
 		"cvar_name" "tf_party_ignore_invites"
@@ -130,7 +130,7 @@
 		"smallcheckimage"	"1"
 		"enabled"	"0"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -149,7 +149,7 @@
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 		"fgcolor_override"		"TanDark"
 	}
@@ -170,7 +170,7 @@
 		"smallcheckimage"	"1"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 
 		"cvar_name"	"tf_mm_custom_ping_enabled"
@@ -193,7 +193,7 @@
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -213,7 +213,7 @@
 		"wrap"		"1"
 		"fgcolor"		"117 107 94 255"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -222,7 +222,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"CurrentPingLabel"
 		"xpos"		"27"
-		"ypos"		"156"
+		"ypos"		"150"
 		"zpos"		"0"
 		"wide"		"f0"
 		"tall"		"20"
@@ -230,7 +230,7 @@
 		"labeltext"		""
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
-		
+
 		"mouseinputenabled"	"0"
 	}
 
@@ -239,9 +239,9 @@
 		"ControlName"		"CCvarSlider"
 		"fieldName"		"PingSlider"
 		"xpos"		"rs1-10"
-		"ypos"		"175"
+		"ypos"		"165"
 		"wide"		"f40"
-		"tall"		"24"
+		"tall"		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"RoundedCorners"		"15"
@@ -301,14 +301,14 @@
 				{
 					"fgcolor_override"	"TanDark"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"	"Button"
@@ -331,7 +331,7 @@
 			"border"		"InnerShadowBorder"
 			"mouseinputenabled"	"0"
 		}
-			
+
 		"Background"
 		{
 			"ControlName"	"EditablePanel"
@@ -349,7 +349,7 @@
 			"border"		"ReplayDefaultBorder"
 		}
 	}
-	
+
 	"ReturnButton"
 	{
 		"ControlName"	"CExButton"
