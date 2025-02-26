@@ -1,17 +1,17 @@
-// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED,
 //DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
 // User options script
 //
 // Format:
 //  Version [float]
-//  Options description followed by 
+//  Options description followed by
 //  Options defaults
 //
 // Option description syntax:
 //
 //  "cvar" { "Prompt" { type [ type info ] } { default } }
 //
-//  type = 
+//  type =
 //   BOOL   (a yes/no toggle)
 //   STRING
 //   NUMBER
@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Aug 19 21:16:27 AM
+// File generated:  Tue Feb 25 18:44:11 AM
 //
 //
 // Cvar	-	Setting
@@ -222,7 +222,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_CombatTextRed"
 		"#Tooltip_CombatTextColors"
 		{ SLIDER 1 255 }
-		{ "255" }
+		{ "178" }
 	}
 
 	"hud_combattext_green"
@@ -230,7 +230,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_CombatTextGreen"
 		"#Tooltip_CombatTextColors"
 		{ SLIDER 1 255 }
-		{ "1" }
+		{ "58" }
 	}
 
 	"hud_combattext_blue"
@@ -238,7 +238,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_CombatTextBlue"
 		"#Tooltip_CombatTextColors"
 		{ SLIDER 1 255 }
-		{ "1" }
+		{ "238" }
 	}
 
 	"tf_remember_activeweapon"
@@ -324,7 +324,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_AutoMedicCallThreshold"
 		"#Tooltip_AutoMedicCallThreshold"
 		{ SLIDER 10 99 }
-		{ "81.309998" }
+		{ "95" }
 	}
 
 	"category4"
@@ -534,7 +534,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_UseMatchHUD"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"category5"
@@ -626,7 +626,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_Multiplayer_Decal_Limit"
 		"#Tooltip_Multiplayer_Decal_Limit"
 		{ NUMBER 0 4096 }
-		{ "10000" }
+		{ "4096" }
 	}
 
 	"category7"
@@ -681,6 +681,14 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_DisableSprays"
 		{ BOOL }
 		{ "1" }
+	}
+
+	"tf_hide_custom_decals"
+	{
+		"#TF_hide_custom_decals"
+		"#Tooltip_hide_custom_decals"
+		{ BOOL }
+		{ "0" }
 	}
 
 	"tf_delete_temp_files"
@@ -745,7 +753,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_ShowMarketDataOnItems_WhenBordersOnly" "1"
 			"#TF_ShowMarketDataOnItems_Always" "2"
 		}
-		{ "1" }
+		{ "2" }
 	}
 
 	"cl_promotional_codes_button_show"
@@ -773,7 +781,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_DemoSupport_All" "2"
 			"#TF_DemoSupport_Tournament" "3"
 		}
-		{ "0" }
+		{ "2" }
 	}
 
 	"ds_dir"
@@ -789,7 +797,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_DemoSupport_Prefix"
 		"#TF_DemoSupport_Prefix_ToolTip"
 		{ STRING }
-		{ "" }
+		{ "TF2-replay-" }
 	}
 
 	"ds_sound"
@@ -816,7 +824,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_DemoSupport_Notify_Chat" "1"
 			"#TF_DemoSupport_Notify_HUD" "2"
 		}
-		{ "0" }
+		{ "1" }
 	}
 
 	"ds_screens"
