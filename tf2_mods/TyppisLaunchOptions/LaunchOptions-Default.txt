@@ -1,0 +1,1 @@
+-dxlevel 98 sw -w 1920 -h 1080 -noborder -novid -precachefontchars -nojoy -nosteamcontroller -nohltv -noquicktime -windowed

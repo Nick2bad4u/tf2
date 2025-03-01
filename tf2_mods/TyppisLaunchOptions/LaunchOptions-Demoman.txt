@@ -1,0 +1,2 @@
+
+-dxlevel 98 sw -w 1920 -h 1080 -noborder -novid -precachefontchars -nojoy -nosteamcontroller -nohltv -noquicktime -windowed -usercon +rcon_password YOUR_PASSWORD_HERE +ip 0.0.0.0 +hostport 27969 +net_start
