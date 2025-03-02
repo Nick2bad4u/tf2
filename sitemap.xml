@@ -10,7 +10,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/.pre-commit-config.yaml</loc>
-<lastmod>2025-02-15T10:40:52-05:00</lastmod>
+<lastmod>2025-02-24T23:40:17-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.scss-lint.yml</loc>
@@ -30,7 +30,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/README.md</loc>
-<lastmod>2025-02-21T01:37:59+00:00</lastmod>
+<lastmod>2025-03-01T15:50:08+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/_config.yml</loc>
@@ -38,7 +38,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/file_list.html</loc>
-<lastmod>2025-02-19T19:26:36-05:00</lastmod>
+<lastmod>2025-02-25T22:38:24+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/file_list.md</loc>
@@ -46,7 +46,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/sitemap.xml</loc>
-<lastmod>2025-02-16T01:19:37+00:00</lastmod>
+<lastmod>2025-02-23T01:19:29+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/dependabot.yml</loc>
@@ -154,7 +154,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/cfg/motd_entries.txt</loc>
-<lastmod>2025-02-20T00:43:32-05:00</lastmod>
+<lastmod>2025-03-01T10:49:35-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/cfg/motd_text_default.txt</loc>
@@ -222,11 +222,11 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/codeql.yml</loc>
-<lastmod>2025-02-17T21:54:12+00:00</lastmod>
+<lastmod>2025-02-21T22:09:03+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/defender.yml</loc>
-<lastmod>2025-02-17T21:54:12+00:00</lastmod>
+<lastmod>2025-02-21T22:09:03+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/dependency-review.yml</loc>
@@ -234,11 +234,11 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/devskim.yml</loc>
-<lastmod>2025-02-17T21:54:12+00:00</lastmod>
+<lastmod>2025-02-21T22:09:03+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/generate-file-list.yml</loc>
-<lastmod>2025-02-18T10:32:30-05:00</lastmod>
+<lastmod>2025-02-26T11:49:13-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/greetings.yml</loc>
@@ -250,7 +250,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/ossar.yml</loc>
-<lastmod>2025-02-19T18:45:47-05:00</lastmod>
+<lastmod>2025-02-21T22:09:03+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/osv-scanner.yml</loc>
@@ -258,7 +258,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/scorecards.yml</loc>
-<lastmod>2025-02-17T21:54:12+00:00</lastmod>
+<lastmod>2025-02-21T22:09:03+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/semgrep.yml</loc>
@@ -266,7 +266,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/sitemap.yml</loc>
-<lastmod>2025-02-17T21:54:12+00:00</lastmod>
+<lastmod>2025-02-24T22:29:28+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/sobelow.yml</loc>
@@ -289,8 +289,16 @@
 <lastmod>2025-02-10T17:34:40-05:00</lastmod>
 </url>
 <url>
+<loc>https://tf2.typpi.online/tf2_mods/TyppisLaunchOptions/LaunchOptions-Default.txt</loc>
+<lastmod>2025-03-01T10:49:35-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/tf2_mods/TyppisLaunchOptions/LaunchOptions-Demoman.txt</loc>
+<lastmod>2025-03-01T10:49:35-05:00</lastmod>
+</url>
+<url>
 <loc>https://tf2.typpi.online/tf2_mods/extraDamageColors/extraDamageColorsInstructions.md</loc>
-<lastmod>2025-02-18T17:35:10-05:00</lastmod>
+<lastmod>2025-02-25T16:58:47-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/tf2_mods/extraDamageColors/extraDamgeColors.png</loc>
@@ -302,7 +310,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/tf2_mods/extraHomeServerIcons/extraHomeServerIconsInstructions.md</loc>
-<lastmod>2025-02-18T17:35:10-05:00</lastmod>
+<lastmod>2025-02-25T11:43:58-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Tag.txt</loc>
@@ -3479,6 +3487,10 @@
 <url>
 <loc>https://tf2.typpi.online/tf2_mods/tf2WeaponIcons/Weapon Icons/Unused/flaregun_small.png</loc>
 <lastmod>2025-02-18T18:25:56-05:00</lastmod>
+</url>
+<url>
+<loc>https://tf2.typpi.online/custom/rayshud/resource/ui/#customizations/README.txt</loc>
+<lastmod>2025-02-24T23:40:17-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/tf2_mods/tf2Fonts/Stock-Fonts/Amarillo_Usaf/to_reg/About.txt</loc>
