@@ -30,7 +30,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/README.md</loc>
-<lastmod>2025-03-01T15:50:08+00:00</lastmod>
+<lastmod>2025-03-08T04:57:14+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/_config.yml</loc>
@@ -46,7 +46,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/sitemap.xml</loc>
-<lastmod>2025-02-23T01:19:29+00:00</lastmod>
+<lastmod>2025-03-02T01:20:31+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/dependabot.yml</loc>
@@ -154,7 +154,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/cfg/motd_entries.txt</loc>
-<lastmod>2025-03-01T10:49:35-05:00</lastmod>
+<lastmod>2025-03-02T17:38:42-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/cfg/motd_text_default.txt</loc>
@@ -222,11 +222,11 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/codeql.yml</loc>
-<lastmod>2025-02-21T22:09:03+00:00</lastmod>
+<lastmod>2025-03-07T22:10:21+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/defender.yml</loc>
-<lastmod>2025-02-21T22:09:03+00:00</lastmod>
+<lastmod>2025-03-07T22:10:21+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/dependency-review.yml</loc>
@@ -234,11 +234,11 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/devskim.yml</loc>
-<lastmod>2025-02-21T22:09:03+00:00</lastmod>
+<lastmod>2025-03-07T22:10:21+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/generate-file-list.yml</loc>
-<lastmod>2025-02-26T11:49:13-05:00</lastmod>
+<lastmod>2025-03-07T23:56:51-05:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/greetings.yml</loc>
@@ -250,7 +250,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/ossar.yml</loc>
-<lastmod>2025-02-21T22:09:03+00:00</lastmod>
+<lastmod>2025-03-07T22:10:21+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/osv-scanner.yml</loc>
@@ -258,7 +258,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/scorecards.yml</loc>
-<lastmod>2025-02-21T22:09:03+00:00</lastmod>
+<lastmod>2025-03-07T22:10:21+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/semgrep.yml</loc>
@@ -266,7 +266,7 @@
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/sitemap.yml</loc>
-<lastmod>2025-02-24T22:29:28+00:00</lastmod>
+<lastmod>2025-03-04T22:11:53+00:00</lastmod>
 </url>
 <url>
 <loc>https://tf2.typpi.online/.github/workflows/sobelow.yml</loc>
