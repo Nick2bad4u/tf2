@@ -156,6 +156,5 @@ jobs:
         with:
           commit_message: "Update file list in README.md automatically with GitHub Action"
           file_pattern: "README.md"
-          commit_user_name: "{{ github.actor }}"
           commit_user_email: "{{ github.actor }}@users.noreply.github.com"
           commit_author: "{{ github.actor }} <{{ github.actor }}@users.noreply.github.com>"
