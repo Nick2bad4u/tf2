@@ -44,6 +44,10 @@ on:
   schedule:
     - cron: "16 2 * * 6" # Trigger on a schedule every Saturday at 2:16 AM UTC
 
+concurrency:
+  group: msdo-${{ github.ref }} # Group for concurrency control
+  cancel-in-progress: false # Do not cancel in-progress jobs
+
 jobs:
   MSDO:
     # Currently, only windows-latest is supported

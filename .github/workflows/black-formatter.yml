@@ -25,6 +25,10 @@ on:
 permissions:
   contents: read # Required to fetch repository contents
 
+concurrency:
+  group: black-formatter-${{ github.ref }} # Group for concurrency control
+  cancel-in-progress: false # Do not cancel in-progress jobs
+
 jobs:
   black-linter:
     # Specify the runner to use (ubuntu-latest)
