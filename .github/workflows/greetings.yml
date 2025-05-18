@@ -9,6 +9,10 @@ on:
 permissions:
   contents: read # Required to fetch repository contents
 
+concurrency:
+  group: greetings-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   greeting:
     # Specify the runner to use (ubuntu-latest)
@@ -22,13 +26,13 @@ jobs:
     steps:
       # Step to harden the runner for security purposes
       - name: Harden Runner
-        uses: step-security/harden-runner@4d991eb9b905ef189e4c376166672c3f2f230481 # v2.11.0
+        uses: step-security/harden-runner@0634a2670c59f64b4a01f0f96f84700a4088b9f0 # v2.12.0
         with:
           egress-policy: audit # Set egress policy to audit
 
       # Step to send a greeting message for issues and pull requests
       - name: First Interaction
-        uses: actions/first-interaction@3c71ce730280171fd1cfb57c00c774f8998586f7 # v1
+        uses: actions/first-interaction@34f15e814fe48ac9312ccf29db4e74fa767cbab7 # v1.3.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }} # Use the repository token for authentication
           issue-message: "Greetings, thanks for opening an issue, I'll look when I can." # Message for new issues
